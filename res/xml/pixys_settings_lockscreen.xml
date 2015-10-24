@@ -3,4 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/pixys_lockscreen_dashboard_title">
 
+        <com.pixys.settings.preferences.SecureSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/lockscreen_media_art_title"
+            android:summary="@string/lockscreen_media_art_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
