@@ -30,4 +30,14 @@
     <string name="pixys_gestures_dashboard_summary">Some description pls!</string>
     <string name="pixys_misc_dashboard_title">Miscellaneous</string>
     <string name="pixys_misc_dashboard_summary">Some description pls!</string>
+
+    <!-- Status Bar -->
+    <string name="status_bar_title">Status Bar</string>
+
+    <!-- net monitor -->
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="network_traffic_state_title">Network traffic</string>
+    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+
 </resources>
