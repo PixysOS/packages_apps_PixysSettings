@@ -57,12 +57,14 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
     private static final String QS_BLUR_ALPHA = "qs_blur_alpha";
     private static final String QS_BLUR_INTENSITY = "qs_blur_intensity";
+    private static final String KEY_QS_PANEL_ALPHA = "qs_panel_alpha";
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
     private CustomSeekBarPreference mQsBlurAlpha;
     private CustomSeekBarPreference mQsBlurIntensity;
+    private CustomSeekBarPreference mQsPanelAlpha;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -108,6 +110,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
         mQsBlurIntensity.setValue(qsBlurIntensity);
         mQsBlurIntensity.setOnPreferenceChangeListener(this);
 
+        mQsPanelAlpha = (CustomSeekBarPreference) findPreference(KEY_QS_PANEL_ALPHA);
+        int qsPanelAlpha = Settings.System.getInt(getContentResolver(),
+                Settings.System.QS_PANEL_BG_ALPHA, 221);
+        mQsPanelAlpha.setValue((int)(((double) qsPanelAlpha / 255) * 100));
+        mQsPanelAlpha.setOnPreferenceChangeListener(this);
     }
 
      @Override
@@ -141,6 +148,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             int valueInt = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.QS_BLUR_INTENSITY, valueInt);
+            return true;
+        } else if (preference == mQsPanelAlpha) {
+            int bgAlpha = (Integer) newValue;
+            int trueValue = (int) (((double) bgAlpha / 100) * 255);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_PANEL_BG_ALPHA, trueValue);
             return true;
         }
         return false;
