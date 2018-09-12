@@ -448,4 +448,8 @@
     <string name="qs_blur_intensity_title">Blur intensity</string>
     <string name="qs_blur_intensity_summary">Sets the blur intensity/radius</string>
 
+    <!-- Toast app icon -->
+    <string name="toast_icon_title">Toast app icon</string>
+    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
+
 </resources>
