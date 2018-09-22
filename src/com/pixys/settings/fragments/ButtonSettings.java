@@ -39,6 +39,8 @@ import com.android.internal.util.hwkeys.ActionUtils;
 
 import com.pixys.settings.preferences.ActionFragment;
 import com.pixys.settings.preferences.CustomSeekBarPreference;
+import com.pixys.settings.preferences.SystemSettingSwitchPreference;
+import com.android.internal.util.pixys.PixysUtils;
 
 public class ButtonSettings extends ActionFragment implements OnPreferenceChangeListener {
 
@@ -49,15 +51,16 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
     // category keys
+    
+    private static final String CATEGORY_KEYS = "button_keys";
     private static final String CATEGORY_HWKEY = "hardware_keys";
     private static final String CATEGORY_HOME = "home_key";
     private static final String CATEGORY_MENU = "menu_key";
     private static final String CATEGORY_BACK = "back_key";
     private static final String CATEGORY_ASSIST = "assist_key";
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
+    private static final String KEYS_SHOW_NAVBAR_KEY = "navigation_bar_show";
 
-    // Masks for checking presence of hardware keys.
-    // Must match values in frameworks/base/core/res/res/values/config.xml
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
     public static final int KEY_MASK_HOME = 0x01;
@@ -71,6 +74,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private ListPreference mBacklightTimeout;
     private CustomSeekBarPreference mButtonBrightness;
     private SwitchPreference mButtonBrightness_sw;
+    private SystemSettingSwitchPreference mEnableNavBar;
     private SwitchPreference mHwKeyDisable;
 
     @Override
@@ -81,6 +85,14 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        final PreferenceCategory keysCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_KEYS);
+
+        boolean showNavBarDefault = PixysUtils.deviceSupportNavigationBar(getActivity());
+        boolean showNavBar = Settings.System.getInt(resolver,
+                Settings.System.OMNI_NAVIGATION_BAR_SHOW, showNavBarDefault ? 1 : 0) == 1;
+        mEnableNavBar = (SystemSettingSwitchPreference) prefScreen.findPreference(KEYS_SHOW_NAVBAR_KEY);
+        mEnableNavBar.setChecked(showNavBar);
 
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
