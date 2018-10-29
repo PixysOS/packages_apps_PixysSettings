@@ -29,6 +29,12 @@
         android:defaultValue="true"
         android:persistent="false" />
 
+    <Preference
+        android:key="double_tap_power_flashlight_summary"
+        android:title="@string/double_tap_power_flashlight_screen_title"
+        android:fragment="com.pixys.settings.preferences.DoubleTapPowerFlashlightSettings"
+        settings:controller="com.pixys.settings.preferences.DoubleTapPowerFlashlightPreferenceController" />
+
     <PreferenceCategory
         android:key="hardware_keys"
         android:title="@string/hardware_keys_category" >
