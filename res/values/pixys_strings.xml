@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="pixys_settings_title">Buttons</string>
+    <string name="pixys_settings_title">PixysSettings</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
