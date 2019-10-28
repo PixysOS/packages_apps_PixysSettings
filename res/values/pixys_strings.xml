@@ -481,4 +481,7 @@
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">Quick Settings opacity</string>
     <string name="qs_panel_alpha_summary">Configure opacity of background</string>
+
+    <!-- AOSP Gestures -->
+	<string name="gesture_preference_pixys">AOSP gestures</string>
 </resources>
