@@ -484,4 +484,9 @@
 
     <!-- AOSP Gestures -->
 	<string name="gesture_preference_pixys">AOSP gestures</string>
+
+    <!-- Enable navbar -->
+    <string name="enable_navbar_title">Enable</string>
+    <string name="enable_navbar_summary">Controls whether the navigation bar is displayed</string>
+
 </resources>
