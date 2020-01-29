@@ -22,10 +22,13 @@ import android.content.ContentResolver;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.UserHandle;
+import android.os.Vibrator;
 import android.os.RemoteException;
 import android.os.ServiceManager;
 import androidx.preference.Preference;
+import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
@@ -80,10 +83,16 @@ public class buttons extends ActionFragment implements Preference.OnPreferenceCh
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
 
+    // Navbar Enable/Disable
+    private static final String ENABLE_NAV_BAR = "enable_nav_bar";
+
     private ListPreference mBacklightTimeout;
     private SystemSettingSeekBarPreference mButtonBrightness;
     private SystemSettingSwitchPreference mButtonBrightness_sw;
     private SystemSettingSwitchPreference mHwKeyDisable;
+    private SwitchPreference mEnableNavigationBar;
+    private boolean mIsNavSwitchingMode = false;
+    private Handler mHandler;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -201,6 +210,12 @@ public class buttons extends ActionFragment implements Preference.OnPreferenceCh
 
         // load preferences first
         setActionPreferencesEnabled(keysDisabled == 0);
+
+        // Navigation bar related options
+        mEnableNavigationBar = (SwitchPreference) findPreference(ENABLE_NAV_BAR);
+        mEnableNavigationBar.setOnPreferenceChangeListener(this);
+        mHandler = new Handler();
+        updateNavBarOption();
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -231,6 +246,23 @@ public class buttons extends ActionFragment implements Preference.OnPreferenceCh
                     value ? 1 : 0);
             setActionPreferencesEnabled(!value);
             return true;
+        } else if (preference == mEnableNavigationBar) {
+            if (mIsNavSwitchingMode) {
+                return false;
+            }
+            mIsNavSwitchingMode = true;
+            boolean isNavBarChecked = ((Boolean) newValue);
+            mEnableNavigationBar.setEnabled(false);
+            writeNavBarOption(isNavBarChecked);
+            updateNavBarOption();
+            mEnableNavigationBar.setEnabled(true);
+            mHandler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    mIsNavSwitchingMode = false;
+                }
+            }, 500);
+            return true;
         }
         return false;
     }
@@ -243,6 +275,17 @@ public class buttons extends ActionFragment implements Preference.OnPreferenceCh
     @Override
     public int getMetricsCategory() {
         return MetricsEvent.PIXYS;
+    }
+
+    private void writeNavBarOption(boolean enabled) {
+        Settings.System.putIntForUser(getActivity().getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0, UserHandle.USER_CURRENT);
+    }
+
+    private void updateNavBarOption() {
+        boolean enabled = Settings.System.getIntForUser(getActivity().getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR, 1, UserHandle.USER_CURRENT) != 0;
+        mEnableNavigationBar.setChecked(enabled);
     }
 
     @Override
