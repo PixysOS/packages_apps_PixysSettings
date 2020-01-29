@@ -22,6 +22,13 @@
             android:summary="@string/anbi_summary"
             android:defaultValue="false" />
 
+    <SwitchPreference
+        android:key="enable_nav_bar"
+        android:title="@string/enable_navbar_title"
+        android:summary="@string/enable_navbar_summary"
+        android:defaultValue="true"
+        android:persistent="false" />
+
     <PreferenceCategory
         android:key="hardware_keys"
         android:title="@string/hardware_keys_category" >

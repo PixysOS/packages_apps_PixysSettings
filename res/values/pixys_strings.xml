@@ -493,4 +493,8 @@
     <string name="qs_edit_title">Edit Icon</string>
     <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
 
+    <!-- Enable navbar -->
+    <string name="enable_navbar_title">Enable</string>
+    <string name="enable_navbar_summary">Controls whether the navigation bar is displayed</string>
+
 </resources>
