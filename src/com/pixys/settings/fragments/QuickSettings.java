@@ -53,10 +53,14 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String PREF_TILE_ANIM_STYLE = "qs_tile_animation_style";
     private static final String PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
     private static final String PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
+    private static final String QS_BLUR_ALPHA = "qs_blur_alpha";
+    private static final String QS_BLUR_INTENSITY = "qs_blur_intensity";
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
+    private SystemSettingSeekBarPreference mQsBlurAlpha;
+    private SystemSettingSeekBarPreference mQsBlurIntensity;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -89,6 +93,19 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
         mTileAnimationInterpolator.setValue(String.valueOf(tileAnimationInterpolator));
         updateTileAnimationInterpolatorSummary(tileAnimationInterpolator);
         mTileAnimationInterpolator.setOnPreferenceChangeListener(this);
+
+        mQsBlurAlpha = (SystemSettingSeekBarPreference) findPreference(QS_BLUR_ALPHA);
+        int qsBlurAlpha = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_BLUR_ALPHA, 100, UserHandle.USER_CURRENT);
+        mQsBlurAlpha.setValue(qsBlurAlpha);
+        mQsBlurAlpha.setOnPreferenceChangeListener(this);
+
+        mQsBlurIntensity = (SystemSettingSeekBarPreference) findPreference(QS_BLUR_INTENSITY);
+        int qsBlurIntensity = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_BLUR_INTENSITY, 100, UserHandle.USER_CURRENT);
+        mQsBlurIntensity.setValue(qsBlurIntensity);
+        mQsBlurIntensity.setOnPreferenceChangeListener(this);
+
     }
 
      @Override
@@ -112,6 +129,16 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             Settings.System.putIntForUser(resolver, Settings.System.ANIM_TILE_INTERPOLATOR,
                     tileAnimationInterpolator, UserHandle.USER_CURRENT);
             updateTileAnimationInterpolatorSummary(tileAnimationInterpolator);
+            return true;
+        } else if (preference == mQsBlurAlpha) {
+            int value = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_BLUR_ALPHA, value);
+            return true;
+        } else if (preference == mQsBlurIntensity) {
+            int valueInt = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_BLUR_INTENSITY, valueInt);
             return true;
         }
         return false;
