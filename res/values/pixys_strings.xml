@@ -93,6 +93,18 @@
     <string name="qs_show_brightness_slider_show_expanded">Show when expanded</string>
     <string name="qs_show_brightness_slider_show_always">Show always</string>
 
+    <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">Volume Panel Style</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Compact</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Tiled</string>
+    <!--  Volume Panel Plugin Values   -->
+    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Display media cover art</string>
     <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
@@ -144,4 +156,5 @@
     <string name="ambient_music_disabled">Disabled</string>
     <string name="ambient_music_bottom">At the bottom (default)</string>
     <string name="ambient_music_center">Centered (under the cLock)</string>
+
 </resources> 
