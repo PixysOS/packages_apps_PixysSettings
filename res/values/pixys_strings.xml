@@ -47,6 +47,10 @@
     <!-- Status Bar -->
     <string name="status_bar_title">Status Bar</string>
 
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
+
     <!--SystemUI Tuner -->
     <string name="statusbar_tuner_title">Statusbar Items</string>
     <string name="statusbar_tuner_summary">Select which statusbar icons to disable</string>
