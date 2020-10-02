@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 The Pure Nexus Project
+ * Copyright (C) 2020 Pixys OS
  * used for PixysOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,23 +19,36 @@ package com.pixys.settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import android.app.Activity;
-import android.content.pm.ActivityInfo;
-import android.content.res.Configuration;
-import android.os.Bundle;
-import android.view.Surface;
-import android.preference.Preference;
-import com.android.settings.R;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.RelativeLayout;
+
+import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class PixysSettings extends SettingsPreferenceFragment {
+import com.pixys.settings.fragments.PixysExploreFragment;
+
+public class PixysSettings extends SettingsPreferenceFragment implements PixysPreferenceScreenChangeListener {
+
+    FragmentManager fragmentManager;
 
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.pixys_settings_layout, container, false);
+        getActivity().setTitle("Explore");
 
-        addPreferencesFromResource(R.xml.pixys_settings);
+        fragmentManager = getChildFragmentManager();
+
+        fragmentManager.beginTransaction().replace(R.id.content, new PixysExploreFragment()).commit();
+
+        return view;
     }
 
     @Override
@@ -43,32 +56,9 @@ public class PixysSettings extends SettingsPreferenceFragment {
         return MetricsProto.MetricsEvent.PIXYS;
     }
 
-    public static void lockCurrentOrientation(Activity activity) {
-        int currentRotation = activity.getWindowManager().getDefaultDisplay().getRotation();
-        int orientation = activity.getResources().getConfiguration().orientation;
-        int frozenRotation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED;
-        switch (currentRotation) {
-            case Surface.ROTATION_0:
-                frozenRotation = orientation == Configuration.ORIENTATION_LANDSCAPE
-                        ? ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
-                        : ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
-                break;
-            case Surface.ROTATION_90:
-                frozenRotation = orientation == Configuration.ORIENTATION_PORTRAIT
-                        ? ActivityInfo.SCREEN_ORIENTATION_REVERSE_PORTRAIT
-                        : ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE;
-                break;
-            case Surface.ROTATION_180:
-                frozenRotation = orientation == Configuration.ORIENTATION_LANDSCAPE
-                        ? ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE
-                        : ActivityInfo.SCREEN_ORIENTATION_REVERSE_PORTRAIT;
-                break;
-            case Surface.ROTATION_270:
-                frozenRotation = orientation == Configuration.ORIENTATION_PORTRAIT
-                        ? ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
-                        : ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE;
-                break;
-        }
-        activity.setRequestedOrientation(frozenRotation);
+    @Override
+    public void onPixysPreferenceScreenChange(Fragment fragment) {
+        fragmentManager.beginTransaction().replace(R.id.content, fragment).addToBackStack(null).commit();
     }
+
 }
