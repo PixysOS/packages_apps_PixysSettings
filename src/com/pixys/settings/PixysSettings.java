@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 The Pure Nexus Project
+ * Copyright (C) 2020 Pixys OS
  * used for PixysOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,23 +19,47 @@ package com.pixys.settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import android.app.Activity;
-import android.content.pm.ActivityInfo;
-import android.content.res.Configuration;
-import android.os.Bundle;
-import android.view.Surface;
-import android.preference.Preference;
-import com.android.settings.R;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
+import android.os.Bundle;
+import android.view.KeyEvent;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.RelativeLayout;
+
+import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class PixysSettings extends SettingsPreferenceFragment {
+import com.pixys.settings.fragments.PixysExploreFragment;
+
+public class PixysSettings extends SettingsPreferenceFragment implements PixysPreferenceScreenChangeListener, View.OnKeyListener {
+
+    static long frag_id = 0;
+    
+    FragmentManager fragmentManager;
 
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.pixys_settings_layout, container, false);
+        getActivity().setTitle("Explore");
 
-        addPreferencesFromResource(R.xml.pixys_settings);
+        fragmentManager = getChildFragmentManager();
+
+        fragmentManager.beginTransaction().add(R.id.content, new PixysExploreFragment(), String.valueOf(frag_id)).commit();
+
+        return view;
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        view.setFocusableInTouchMode(true);
+        view.requestFocus();
+        view.setOnKeyListener(this);
     }
 
     @Override
@@ -43,32 +67,25 @@ public class PixysSettings extends SettingsPreferenceFragment {
         return MetricsProto.MetricsEvent.PIXYS;
     }
 
-    public static void lockCurrentOrientation(Activity activity) {
-        int currentRotation = activity.getWindowManager().getDefaultDisplay().getRotation();
-        int orientation = activity.getResources().getConfiguration().orientation;
-        int frozenRotation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED;
-        switch (currentRotation) {
-            case Surface.ROTATION_0:
-                frozenRotation = orientation == Configuration.ORIENTATION_LANDSCAPE
-                        ? ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
-                        : ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
-                break;
-            case Surface.ROTATION_90:
-                frozenRotation = orientation == Configuration.ORIENTATION_PORTRAIT
-                        ? ActivityInfo.SCREEN_ORIENTATION_REVERSE_PORTRAIT
-                        : ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE;
-                break;
-            case Surface.ROTATION_180:
-                frozenRotation = orientation == Configuration.ORIENTATION_LANDSCAPE
-                        ? ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE
-                        : ActivityInfo.SCREEN_ORIENTATION_REVERSE_PORTRAIT;
-                break;
-            case Surface.ROTATION_270:
-                frozenRotation = orientation == Configuration.ORIENTATION_PORTRAIT
-                        ? ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
-                        : ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE;
-                break;
-        }
-        activity.setRequestedOrientation(frozenRotation);
+    @Override
+    public void onPixysPreferenceScreenChange(Fragment fragment) {
+        frag_id++;
+        fragmentManager.beginTransaction().setCustomAnimations(R.anim.pixys_settings_exit_anim, R.anim.pixys_settings_enter_anim, R.anim.pixys_settings_exit_anim, R.anim.pixys_settings_enter_anim).replace(R.id.content, fragment, String.valueOf(frag_id)).addToBackStack(String.valueOf(frag_id)).commit();
     }
+
+    @Override
+    public boolean onKey(View v, int keyCode, KeyEvent event) {
+        if (event.getAction() == KeyEvent.ACTION_UP) {
+            if (keyCode == KeyEvent.KEYCODE_BACK) {
+                if (fragmentManager.getBackStackEntryCount() > 0) {
+                    if(fragmentManager.getBackStackEntryCount() == 1)
+                        getActivity().setTitle("Explore");
+                    fragmentManager.popBackStack();
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
