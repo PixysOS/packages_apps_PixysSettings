@@ -1,0 +1,97 @@
+[
+  {
+    "category": "Team leads",
+    "members": [
+      {
+        "name": "Subins Mani",
+        "role": "Founder and Lead Source maintainer",
+        "url": "https://t.me/Subinsmani"
+      },
+      {
+        "name": "Shreejoy Dash",
+        "role": "Backend website developer and Developer Relations",
+        "url": "https://t.me/Shreejoy_Dash"
+      },
+      {
+        "name": "Aswin A S Kurup",
+        "role": "Source maintainer",
+        "url": "https://t.me/aswin_a_s"
+      }
+    ]
+  },
+  {
+    "category": "Development team",
+    "members": [
+      {
+        "name": "Nishant",
+        "role": "App developer",
+        "url": "https://t.me/psycho_mods"
+      },
+      {
+        "name": "Karthik Reddy",
+        "role": "App developer",
+        "url": "https://t.me/karthikgaddam4"
+      },
+      {
+        "name": "Vipin Mishra",
+        "role": "Frontend Website developer",
+        "url": "https://t.me/thevipinmishra"
+      },
+      {
+        "name": "Bijay Khadka",
+        "role": "UX/UI designer",
+        "url": "https://kbijay.com"
+      }
+    ]
+  },
+  {
+    "category": "Moderators",
+    "members": [
+      {
+        "name": "Akshay Kakatkar",
+        "role": "Maintainers Moderator",
+        "url": "https://t.me/KakatkarAkshay"
+      },
+      {
+        "name": "Nishant Singh",
+        "role": "Maintainers Moderator",
+        "url": "https://t.me/tesla59"
+      }
+    ]
+  },
+  {
+    "category": "Supporting Team",
+    "members": [
+      {
+        "name": "Sipun Kumar Mahanta",
+        "role": "",
+        "url": "https://t.me/Darkstar085"
+      },
+      {
+        "name": "Rahul Yadav",
+        "role": "",
+        "url": "https://t.me/rahul9999xda"
+      },
+      {
+        "name": "Akshay Kumar",
+        "role": "",
+        "url": "https://t.me/Akianonymus"
+      },
+      {
+        "name": "Rohan Hasabe",
+        "role": "",
+        "url": "https://t.me/Hasaber8"
+      },
+      {
+        "name": "Express Luke",
+        "role": "",
+        "url": "https://t.me/OGExpressLuke"
+      },
+      {
+        "name": "Melvin Garcia",
+        "role": "",
+        "url": "https://t.me/melvingarcia"
+      }
+    ]
+  }
+]
