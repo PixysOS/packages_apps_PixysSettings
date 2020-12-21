@@ -189,7 +189,7 @@
         android:clickable="true"
         android:focusable="true"
         android:foreground="?android:attr/selectableItemBackground"
-        app:layout_constraintTop_toBottomOf="@id/pixys_notification">
+        app:layout_constraintTop_toBottomOf="@id/pixys_buttons">
 
         <ImageView
             android:id="@+id/pixys_gestures_icon"
