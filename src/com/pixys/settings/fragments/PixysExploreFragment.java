@@ -41,18 +41,14 @@ public class PixysExploreFragment extends Fragment implements View.OnClickListen
         RelativeLayout quick_settings = view.findViewById(R.id.pixys_quicksettings);
         RelativeLayout notification_settings = view.findViewById(R.id.pixys_notification);
         RelativeLayout buttons_settings = view.findViewById(R.id.pixys_buttons);
-        RelativeLayout lockscreen_settings = view.findViewById(R.id.pixys_lockscreen);
         RelativeLayout gesture_settings = view.findViewById(R.id.pixys_gestures);
-        RelativeLayout misc_settings = view.findViewById(R.id.pixys_miscellaneous);
         RelativeLayout about_settings = view.findViewById(R.id.pixys_about);
 
         statusbar_settings.setOnClickListener(this);
         quick_settings.setOnClickListener(this);
         notification_settings.setOnClickListener(this);
         buttons_settings.setOnClickListener(this);
-        lockscreen_settings.setOnClickListener(this);
         gesture_settings.setOnClickListener(this);
-        misc_settings.setOnClickListener(this);
         about_settings.setOnClickListener(this);
 
         return view;
@@ -70,15 +66,10 @@ public class PixysExploreFragment extends Fragment implements View.OnClickListen
             onPreferenceClick.onPixysPreferenceScreenChange(new PixysNotificationFragment());
         } else if (id == R.id.pixys_buttons) {
             onPreferenceClick.onPixysPreferenceScreenChange(new PixysButtonsFragment());
-        } else if (id == R.id.pixys_lockscreen) {
-            onPreferenceClick.onPixysPreferenceScreenChange(new PixysLockscreenFragment());
         } else if (id == R.id.pixys_gestures) {
             onPreferenceClick.onPixysPreferenceScreenChange(new PixysGesturesFragment());
-        } else if (id == R.id.pixys_miscellaneous) {
-            onPreferenceClick.onPixysPreferenceScreenChange(new PixysMiscFragment());
         } else if(id == R.id.pixys_about) {
             onPreferenceClick.onPixysPreferenceScreenChange(new PixysAboutFragment());
         }
     }
-    
 }
