@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018-2020 PixysOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">Explore</string>
+    <string name="pixys_settings_dashboard_summary">いいものを探してみましょう</string>
+    <string name="pixys_statusbar_dashboard_title">ステータスバー</string>
+    <string name="pixys_statusbar_dashboard_summary">ステータスバーのアイコンを編集する</string>
+    <string name="pixys_qs_dashboard_title">クイック設定</string>
+    <string name="pixys_qs_dashboard_summary">クイック設定を編集する</string>
+    <string name="pixys_notifications_dashboard_title">通知</string>
+    <string name="pixys_notifications_dashboard_summary">通知の設定を編集する</string>
+    <string name="pixys_buttons_dashboard_title">ボタン</string>
+    <string name="pixys_buttons_dashboard_summary">ハードウェアキーをカスタマイズする</string>
+    <string name="pixys_lockscreen_dashboard_title">ロック画面</string>
+    <string name="pixys_lockscreen_dashboard_summary">ロック画面を編集する</string>
+    <string name="pixys_gestures_dashboard_title">ジェスチャー</string>
+    <string name="pixys_gestures_dashboard_summary">端末のジェスチャーを編集する</string>
+    <string name="pixys_misc_dashboard_title">その他</string>
+    <string name="pixys_misc_dashboard_summary">その他の設定を編集する</string>
+    <string name="pixys_about_dashboard_title">PixysOS について</string>
+    <string name="pixys_about_dashboard_summary">私達とチームの紹介</string>
+    <string name="pixys_about_info">PixysOS は最小限のカスタマイズ機能を備えた AOSP  ベースの ROM です。ストック ROM のような UI/UX を提供します。プロジェクトは、他のプロジェクトから選び抜かれた様々なコミットによって構成されています。AOSP に基づいているので滑らかで、ラグのない体験が可能です。私たちは常により多くの機能を追加し、さらに定期的に更新していきます。</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">ソースコードを表示する</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">Facebook に参加する</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">Telegram グループに参加する</string>
+    <string name="pixys_about_contact_website_header">ダウンロードセンター</string>
+    <!-- Status Bar -->
+    <!--SystemUI Tuner -->
+    <!-- Statusbar net monitor -->
+    <!-- Less boring heads up -->
+    <!-- Navbar options -->
+    <!-- Supress notifications if screen is on -->
+    <!-- Quick Settings brightness slider -->
+</resources>

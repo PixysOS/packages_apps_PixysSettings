@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018-2020 PixysOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">Felfedezés</string>
+    <string name="pixys_settings_dashboard_summary">Fedezze fel az újdonságokat</string>
+    <string name="pixys_statusbar_dashboard_title">Állapotsor</string>
+    <string name="pixys_statusbar_dashboard_summary">Testreszabhatja az állapotsor ikonjait</string>
+    <string name="pixys_qs_dashboard_title">Gyors Beállítások</string>
+    <string name="pixys_qs_dashboard_summary">Gyorsbeállítások testreszabása</string>
+    <string name="pixys_notifications_dashboard_title">Értesítések</string>
+    <string name="pixys_notifications_dashboard_summary">Értesítések testreszabása</string>
+    <string name="pixys_buttons_dashboard_title">Gombok</string>
+    <string name="pixys_buttons_dashboard_summary">Hardveres gombok testreszabása</string>
+    <string name="pixys_lockscreen_dashboard_title">Zárképernyő</string>
+    <string name="pixys_lockscreen_dashboard_summary">Zárképernyő testreszabása</string>
+    <string name="pixys_gestures_dashboard_title">Gesztusok</string>
+    <string name="pixys_gestures_dashboard_summary">Testreszabhatja eszközét gesztusokkal</string>
+    <string name="pixys_misc_dashboard_title">Egyéb</string>
+    <string name="pixys_misc_dashboard_summary">Testreszabás egyéb beállításokkal</string>
+    <string name="pixys_about_dashboard_title">A PixysOSről</string>
+    <string name="pixys_about_dashboard_summary">Csapatunk bemutatása</string>
+    <string name="pixys_about_info">A PixysOS egy AOSP alapú ROM, ami gyári kinézetet kínál különféle testreszabási opciókkal és Substratum témamotorral. A Projekt más projektekből való válogatással jött létre. Az AOSP alapnak köszönhetően már a dobozból kivéve folyamatos és akadásmentes élményt nyújt. Folyamatosan bővítjük és még jobbá tesszük majd a jövőbeli frissítésekben. &#35;.</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">Nézze meg a forráskódot</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">Látogassa meg Facebook oldalunk</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">Csatlakozzon Telegram vitacsoportunkhoz</string>
+    <string name="pixys_about_contact_website_header">Letöltőközpont</string>
+    <string name="pixys_about_contact_website_description">Látogassa meg honlapunkat letöltésekért és kiegészítőkért</string>
+    <string name="pixys_core_category_header">Fejlesztőcsapat</string>
+    <string name="pixys_devices_category_header">Hivatalos eszközök</string>
+    <!-- Status Bar -->
+    <string name="status_bar_title">Állapotsor</string>
+    <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">Állapotsori elemek</string>
+    <string name="statusbar_tuner_summary">Válassza ki a letiltandó állapotsor ikonjait</string>
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">Hálózati forgalom jelzők</string>
+    <string name="network_traffic_state_title">Hálózati forgalom</string>
+    <string name="network_traffic">Hálózati forgalom</string>
+    <string name="network_traffic_location">Forgalomjelző elhelyezése</string>
+    <string name="traffic_disabled">Letiltva</string>
+    <string name="traffic_statusbar">Állapotsor</string>
+    <string name="traffic_expanded_statusbar">Kiterjesztett fejléc</string>
+    <string name="network_traffic_autohide_threshold_title">Hálózati forgalom automatikus elrejtésének a határértéke (KB/s)</string>
+    <string name="network_traffic_arrow">A nyíl megjelenítése</string>
+    <string name="network_traffic_arrow_summary">Hálózati forgalmat jelző nyilak megjelenítése</string>
+    <string name="network_traffic_type">Hálózataktivitás-típus kiválasztása</string>
+    <string name="show_network_traffic_combined">Kombinált (fel-letöltés)</string>
+    <string name="show_network_traffic_dynamic">Dinamikus</string>
+    <string name="show_network_traffic_up">Feltöltés</string>
+    <string name="show_network_traffic_down">Letöltés</string>
+    <string name="show_network_traffic_all">Mindkettő</string>
+    <string name="network_traffic_layout">Elrendezés</string>
+    <string name="network_traffic_layout_h">Vízszintes</string>
+    <string name="network_traffic_layout_v">Függőleges</string>
+    <string name="nettraf_font_size">Egyedülálló net betűmérete (dp)</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Kevésbé unalmas lebegő értesítések</string>
+    <string name="less_boring_heads_up_summary">Gyorsan tiltsa le a heads upot az összes alkalmazásnál, de engedélyezze a tárcsázó és az üzenetküldő alkalmazások számára</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Fordított elrendezés</string>
+    <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Értesítéshangok, ha a képernyő be van kapcsolva</string>
+    <string name="notification_sound_vib_screen_on_summary">Értesítéshangok és rezgések lejátszása, ha a képernyő bekapcsolt állapotban van</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Fényerőszabályzó-csúszka</string>
+    <string name="qs_show_brightness_slider_summary">Fényerő csúszka megjelenítése a gyors beállítások panelen</string>
+    <string name="qs_show_auto_brightness_title">Fényerő ikon</string>
+    <string name="qs_show_auto_brightness_summary">Adaptív fényerő váltása a fényerő csúszka közelében</string>
+    <string name="qs_show_brightness_slider_show_never">Soha ne mutassa</string>
+    <string name="qs_show_brightness_slider_show_expanded">Kiterjesztéskor jelenítse meg</string>
+    <string name="qs_show_brightness_slider_show_always">Mindig mutat</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018-2020 PixysOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">Nastavení Pixys</string>
+    <string name="pixys_settings_dashboard_summary">Prozkoumejte naše vychytávky</string>
+    <string name="pixys_statusbar_dashboard_title">Stavový řádek</string>
+    <string name="pixys_statusbar_dashboard_summary">Přizpůsobte si ikony ve stavovém řádku</string>
+    <string name="pixys_qs_dashboard_title">Rychlá nastavení</string>
+    <string name="pixys_qs_dashboard_summary">Přizpůsobit Rychlá nastavení</string>
+    <string name="pixys_notifications_dashboard_title">Oznámení</string>
+    <string name="pixys_notifications_dashboard_summary">Přizpůsobení nastavení oznámení</string>
+    <string name="pixys_buttons_dashboard_title">Tlačítka</string>
+    <string name="pixys_buttons_dashboard_summary">Přizpůsobit hardwarová tlačítka</string>
+    <string name="pixys_lockscreen_dashboard_title">Zamykací obrazovka</string>
+    <string name="pixys_lockscreen_dashboard_summary">Přizpůsobit zamykací obrazovku</string>
+    <string name="pixys_gestures_dashboard_title">Gesta</string>
+    <string name="pixys_gestures_dashboard_summary">Přizpůsobení gest zařízení</string>
+    <string name="pixys_misc_dashboard_title">Různé</string>
+    <string name="pixys_misc_dashboard_summary">Přizpůsobení s různými nastaveními</string>
+    <string name="pixys_about_dashboard_title">Informace o PixysOS</string>
+    <string name="pixys_about_dashboard_summary">Naše představení a náš tým</string>
+    <string name="pixys_about_info">PixysOS je založen na AOSP, který poskytuje původní UI/UX s různými funkcemi a přizpůsobením. Projekt byl vytvořen sbíráním různých commitů z jiných projektů. Protože je založen na AOSP, tak poskytuje hladký chod bez sekání hned po vybalení z krabice. Budeme se neustále snažit přidávat další funkce a učinit z něj ještě lepší systém v budoucích aktualizací.</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">Zobrazit náš zdrojový kód</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">Navštivte naši stránku na Facebooku</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">Připojte se k naší diskusní skupině na Telegramu</string>
+    <string name="pixys_about_contact_website_header">Centrum stahování</string>
+    <string name="pixys_about_contact_website_description">Navštivte naši webovou stránku pro stahování a další</string>
+    <string name="pixys_core_category_header">Hlavní tým</string>
+    <string name="pixys_devices_category_header">Oficiální zařízení</string>
+    <!-- Status Bar -->
+    <string name="status_bar_title">Stavový řádek</string>
+    <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">Položky stavového řádku</string>
+    <string name="statusbar_tuner_summary">Vyberte, které ikony stavového řádku chcete zakázat</string>
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">Indikátor síťového provozu</string>
+    <string name="network_traffic_state_title">Síťový provoz</string>
+    <string name="network_traffic">Síťový provoz</string>
+    <string name="network_traffic_location">Umístění indikátoru síťového provozu</string>
+    <string name="traffic_disabled">Vypnuto</string>
+    <string name="traffic_statusbar">Stavový řádek</string>
+    <string name="traffic_expanded_statusbar">Rozšířené záhlaví</string>
+    <string name="network_traffic_autohide_threshold_title">Prahová hodnota pro automatické skrytí síťové aktivity (KB/s)</string>
+    <string name="network_traffic_arrow">Zobrazit šipky</string>
+    <string name="network_traffic_arrow_summary">Zobrazit šipky aktivity sítě</string>
+    <string name="network_traffic_type">Vyberte typ činnosti sítě</string>
+    <string name="show_network_traffic_combined">Kombinovaný (nahrávání + stahování)</string>
+    <string name="show_network_traffic_dynamic">Dynamický</string>
+    <string name="show_network_traffic_up">Nahrávání</string>
+    <string name="show_network_traffic_down">Stahování</string>
+    <string name="show_network_traffic_all">Obojí</string>
+    <string name="network_traffic_layout">Vrstva aktivity</string>
+    <string name="network_traffic_layout_h">Horizontální</string>
+    <string name="network_traffic_layout_v">Vertikální</string>
+    <string name="nettraf_font_size">Velikost textu jedné sítě</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Méně obtěžující plovoucí oznámení</string>
+    <string name="less_boring_heads_up_summary">Rychle vypne plovoucí oznámení pro všechny aplikace, ale ponechá je zapnuté pro aplikace Telefon a Zprávy</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Převrátit rozložení</string>
+    <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Zvukové oznámení při aktivitě</string>
+    <string name="notification_sound_vib_screen_on_summary">Přehrát zvuk a vibrovat při přijetí oznámení, když je obrazovka zapnutá</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Posuvník jasu</string>
+    <string name="qs_show_brightness_slider_summary">Zobrazit posuvník jasu v panelu rychlého nastavení</string>
+    <string name="qs_show_auto_brightness_title">Ikona automatického jasu</string>
+    <string name="qs_show_auto_brightness_summary">Zobrazit přepínač adaptivního jasu vedle posuvníku</string>
+    <string name="qs_show_brightness_slider_show_never">Nikdy nezobrazovat</string>
+    <string name="qs_show_brightness_slider_show_expanded">Zobrazit po rozbalení</string>
+    <string name="qs_show_brightness_slider_show_always">Zobrazit vždy</string>
+</resources>
