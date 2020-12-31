@@ -182,7 +182,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/pixys_gestures"
+        android:id="@+id/pixys_lockscreen"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:paddingHorizontal="16dp"
@@ -190,6 +190,50 @@
         android:focusable="true"
         android:foreground="?android:attr/selectableItemBackground"
         app:layout_constraintTop_toBottomOf="@id/pixys_buttons">
+
+        <ImageView
+            android:id="@+id/pixys_lock_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_homepage_pixys_lockscreen"
+            android:layout_centerVertical="true"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_toEndOf="@id/pixys_lock_icon"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/pixys_lock_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pixys_lockscreen_dashboard_title"
+                android:textSize="16sp"
+                android:textColor="?android:textColorPrimary"/>
+
+            <TextView
+                android:id="@+id/pixys_lock_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pixys_lockscreen_dashboard_summary"
+                android:textColor="?android:textColorSecondary"
+                android:layout_below="@id/pixys_lock_title"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pixys_gestures"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingHorizontal="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintTop_toBottomOf="@id/pixys_lockscreen">
 
         <ImageView
             android:id="@+id/pixys_gestures_icon"
