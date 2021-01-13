@@ -28,6 +28,8 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
+import com.pixys.settings.preferences.SecureSettingSwitchPreference;
+
 public class PixysLockscreenFragment extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
@@ -45,7 +47,13 @@ public class PixysLockscreenFragment extends SettingsPreferenceFragment implemen
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.pixys_settings_lockscreen);
-
+        final boolean hasFOD = getResources().getBoolean(
+                com.android.internal.R.bool.config_supportsInDisplayFingerprint);
+        if (!hasFOD) {
+            SecureSettingSwitchPreference fodOnDozePref =
+                    (SecureSettingSwitchPreference) findPreference("fod_on_doze");
+            getPreferenceScreen().removePreference(fodOnDozePref);
+        }
         mAODPref = findPreference(AOD_SCHEDULE_KEY);
         updateAlwaysOnSummary();
     }
