@@ -17,4 +17,11 @@
         android:title="@string/qs_show_auto_brightness_title"
         android:summary="@string/qs_show_auto_brightness_summary"
         android:defaultValue="false" />
+
+     <!-- QS Media Player Toggle -->
+     <SwitchPreference
+          android:key="quick_settings_media_player"
+          android:title="@string/quick_settings_media_player"
+          android:summary="@string/quick_settings_media_player_summary" />
+
 </PreferenceScreen>
