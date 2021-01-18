@@ -133,4 +133,9 @@
     <string name="status_bar_battery_percentage_default">Hidden (default)</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>  
+
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <string name="quick_settings_media_player">Media resumption</string>
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <string name="quick_settings_media_player_summary">Shows and persists media player in Quick Settings. Requires reboot.</string>
 </resources> 
