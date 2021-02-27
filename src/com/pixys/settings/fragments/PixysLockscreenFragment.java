@@ -18,6 +18,9 @@
 package com.pixys.settings.fragments;
 
 import android.os.Bundle;
+import android.os.UserHandle;
+import android.provider.Settings;
+
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 
@@ -27,11 +30,41 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
 public class PixysLockscreenFragment extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
+
+    Preference mAODPref;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.pixys_settings_lockscreen);
+
+        mAODPref = findPreference(AOD_SCHEDULE_KEY);
+        updateAlwaysOnSummary();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateAlwaysOnSummary();
+    }
+
+    private void updateAlwaysOnSummary() {
+        if (mAODPref == null) return;
+        int mode = Settings.Secure.getIntForUser(getActivity().getContentResolver(),
+                Settings.Secure.DOZE_ALWAYS_ON_AUTO_MODE, 0, UserHandle.USER_CURRENT);
+        switch (mode) {
+            case 0:
+                mAODPref.setSummary(R.string.disabled);
+                break;
+            case 1:
+                mAODPref.setSummary(R.string.night_display_auto_mode_twilight);
+                break;
+            case 2:
+                mAODPref.setSummary(R.string.night_display_auto_mode_custom);
+                break;
+        }
     }
 
     @Override
