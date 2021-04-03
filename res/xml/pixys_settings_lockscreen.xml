@@ -15,19 +15,6 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
-        <com.pixys.settings.preferences.SystemSettingListPreference
-            android:key="ambient_music_ticker"
-            android:title="@string/ambient_music_location"
-            android:summary="%s"
-            android:entries="@array/ambient_music_location_entries"
-            android:entryValues="@array/ambient_music_location_values"
-            android:defaultValue="0" />
-
-    <Preference
-        android:key="always_on_display_schedule"
-        android:title="@string/always_on_display_schedule_title"
-        android:fragment="com.pixys.settings.fragments.AODSchedule" />
-
         <com.pixys.settings.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_lockscreen"
         android:title="@string/double_tap_sleep_lockscreen_title"
@@ -53,6 +40,20 @@
             settings:units="dp"
             settings:interval="1"
             android:defaultValue="80" />
+
+        <com.pixys.settings.preferences.SystemSettingListPreference
+            android:key="ambient_music_ticker"
+            android:title="@string/ambient_music_location"
+            android:summary="%s"
+            android:entries="@array/ambient_music_location_entries"
+            android:entryValues="@array/ambient_music_location_values"
+            android:defaultValue="0" />
+
+    <Preference
+        android:key="always_on_display_schedule"
+        android:title="@string/always_on_display_schedule_title"
+        android:summary="@string/always_on_display_schedule_summary"
+        android:fragment="com.pixys.settings.fragments.AODSchedule" />
 
   </PreferenceCategory>
 </PreferenceScreen>
