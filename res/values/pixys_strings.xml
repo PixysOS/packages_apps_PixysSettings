@@ -151,6 +151,7 @@
 
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Always on display schedule</string>
+   <string name="always_on_display_schedule_summary">Schedule Always on display with sunset/sunrise or custom time</string>
     <string name="always_on_display_schedule_sunset">Sunset</string>
     <string name="always_on_display_schedule_sunrise">Sunrise</string>
     <string name="disabled">Disabled</string>
@@ -163,7 +164,7 @@
     <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
 
     <!-- AOD Icons in Lockscreen! -->
-    <string name="lock_aod_icons_title">AOD Icons</string>
+    <string name="lock_aod_icons_title">AOD/ambient display customisations</string>
     <string name="ambient_icons_lockscreen_title">AOD icons on lockscreen</string>
     <string name="ambient_icons_lockscreen_summary">Replace notifications with AOD icons</string>
     <string name="ambient_icons_size_title">AOD icons size</string>
