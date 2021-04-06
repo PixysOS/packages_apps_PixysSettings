@@ -14,12 +14,91 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">Khám phá</string>
+    <string name="pixys_settings_dashboard_summary">Cùng khám phá những tính năng thú vị</string>
     <string name="pixys_statusbar_dashboard_title">Thanh trạng thái</string>
+    <string name="pixys_statusbar_dashboard_summary">Tùy chỉnh biểu tượng trên thanh trạng thái của bạn</string>
+    <string name="pixys_qs_dashboard_title">Cài đặt nhanh</string>
+    <string name="pixys_qs_dashboard_summary">Tùy chỉnh bảng cài đặt nhanh của bạn</string>
+    <string name="pixys_notifications_dashboard_title">Thông báo</string>
+    <string name="pixys_notifications_dashboard_summary">Tùy chỉnh thông báo</string>
+    <string name="pixys_buttons_dashboard_title">Các nút bấm</string>
+    <string name="pixys_buttons_dashboard_summary">Tuỳ biến phím cứng</string>
+    <string name="pixys_lockscreen_dashboard_title">Màn hình khoá</string>
+    <string name="pixys_lockscreen_dashboard_summary">Tuỳ chỉnh của màn hình khóa</string>
+    <string name="pixys_gestures_dashboard_title">Cử chỉ</string>
+    <string name="pixys_gestures_dashboard_summary">Tùy chỉnh thiết bị của bạn bằng cử chỉ</string>
+    <string name="pixys_misc_dashboard_title">Cài đặt khác</string>
+    <string name="pixys_misc_dashboard_summary">Tùy chỉnh cài đặt linh tinh</string>
+    <string name="pixys_about_dashboard_title">Về PixysOS</string>
+    <string name="pixys_about_dashboard_summary">Giới thiệu và nhóm của chúng tôi</string>
+    <string name="pixys_about_info">AospExtended là một bản rom dựa trên mã nguồn mở android cung cấp giao diện, tính năng gốc cùng với nhiều tính năng tùy biến và hỗ trợ tùy biến giao diện Substratum. Dự án này là tập hợp nhiều code từ những dự án nhỏ khác. Dựa trên android gốc nên rom mang đến sự mượt mà và không giật lag. Chúng tôi sẽ liên tục cố gắng thêm các tính năng mở rộng mới, khiến bản rom ngày càng tốt hơn trong tương lai.</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">Xem mã nguồn code</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">Tham gia nhóm Facebook của chúng tôi</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">Tham gia nhóm thảo luận Telegram của chúng tôi</string>
+    <string name="pixys_about_contact_website_header">Trung tâm tải xuống</string>
+    <string name="pixys_about_contact_website_description">Ghé thăm website của chúng tôi để tải và xem thông tin Cập Nhật</string>
+    <string name="pixys_core_category_header">Nhóm cốt lõi</string>
+    <string name="pixys_devices_category_header">Thiết bị chính thức</string>
     <!-- Status Bar -->
+    <string name="status_bar_title">Thanh trạng thái</string>
+    <!-- Double Tap gestures -->
     <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">Biểu tượng thanh trạng thái</string>
+    <string name="statusbar_tuner_summary">Chọn các biểu tượng thanh trạng thái để tắt</string>
     <!-- Statusbar net monitor -->
+    <string name="traffic_title">Tốc độ mạng</string>
+    <string name="network_traffic_state_title">Tốc độ mạng</string>
+    <string name="network_traffic">Tốc độ mạng</string>
+    <string name="network_traffic_location">Khu vực hiển thị tốc độ mạng</string>
+    <string name="traffic_disabled">Đã tắt</string>
+    <string name="traffic_statusbar">Thanh Trạng Thái</string>
+    <string name="traffic_expanded_statusbar">Thanh tiêu đề cài đặt nhanh</string>
+    <string name="network_traffic_autohide_threshold_title">Ngưỡng tự ẩn lưu lượng mạng (KB/s)</string>
+    <string name="network_traffic_arrow">Hiển thị mũi tên</string>
+    <string name="network_traffic_arrow_summary">Hiển thị mũi tên báo tốc độ mạng</string>
+    <string name="network_traffic_type">Chọn kiểu hoạt động mạng</string>
+    <string name="show_network_traffic_combined">Kết hợp (Tải lên + Tải xuống)</string>
+    <string name="show_network_traffic_dynamic">Hình ảnh động</string>
+    <string name="show_network_traffic_up">Tải Lên</string>
+    <string name="show_network_traffic_down">Tải xuống</string>
+    <string name="show_network_traffic_all">Cả hai</string>
+    <string name="network_traffic_layout">Bố cục hoạt động</string>
+    <string name="network_traffic_layout_h">Nằm ngang</string>
+    <string name="network_traffic_layout_v">Theo chiều dọc</string>
+    <string name="nettraf_font_size">Cỡ chữ đơn</string>
     <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Ít thông báo nổi hơn</string>
+    <string name="less_boring_heads_up_summary">Nhanh chóng tắt thông báo cho tất cả các ứng dụng nhưng vẫn bật chúng cho ứng dụng quay số và nhắn tin</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Đảo ngược bố cục</string>
     <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Thông báo âm thanh nếu hoạt động</string>
+    <string name="notification_sound_vib_screen_on_summary">Phát âm thanh và rung cho thông báo khi màn hình đang bật</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Thanh trượt độ sáng</string>
+    <string name="qs_show_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
+    <string name="qs_show_auto_brightness_title">Biểu tượng độ sáng tự động</string>
+    <string name="qs_show_auto_brightness_summary">Hiển thị công tắc Độ sáng tự động bên cạnh thanh độ sáng</string>
+    <string name="qs_show_brightness_slider_show_never">Không bao giờ hiển thị</string>
+    <string name="qs_show_brightness_slider_show_expanded">Hiển thị khi mở rộng</string>
+    <string name="qs_show_brightness_slider_show_always">Luôn hiển thị</string>
+    <!-- Lock screen cover art -->
+    <!-- 4G LTE switch -->
+    <!-- VoLTE switch -->
+    <!-- VoWiFi icon -->
+    <!-- Lockscreen battery info indicator  -->
+    <!-- Battery Styles -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <!-- ambient music ticker -->
+    <!-- AOD Schedule -->
+    <!-- Notification Media Options -->
+    <!-- AOD Icons in Lockscreen! -->
+    <!-- FOD on doze -->
 </resources>

@@ -14,11 +14,140 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">Keşfet</string>
+    <string name="pixys_settings_dashboard_summary">Yeniliklere bir göz atın</string>
+    <string name="pixys_statusbar_dashboard_title">Durum çubuğu</string>
+    <string name="pixys_statusbar_dashboard_summary">Durum çubuğu simgelerinizi özelleştirin</string>
+    <string name="pixys_qs_dashboard_title">Hızlı ayarlar</string>
+    <string name="pixys_qs_dashboard_summary">Hızlı ayarlarınızı özelleştirin</string>
+    <string name="pixys_notifications_dashboard_title">Bildirimler</string>
+    <string name="pixys_notifications_dashboard_summary">Bildirim ayarlarınızı özelleştirin</string>
+    <string name="pixys_buttons_dashboard_title">Tuşlar</string>
+    <string name="pixys_buttons_dashboard_summary">Donanım tuşlarınızı özelleştirin</string>
+    <string name="pixys_lockscreen_dashboard_title">Kilit ekranı</string>
+    <string name="pixys_lockscreen_dashboard_summary">Kilit ekranınızı özelleştirin</string>
+    <string name="pixys_gestures_dashboard_title">Hareketler</string>
+    <string name="pixys_gestures_dashboard_summary">Cihazınızın hareketlerini özelleştirin</string>
+    <string name="pixys_misc_dashboard_title">Çeşitli</string>
+    <string name="pixys_misc_dashboard_summary">Bazı çeşitli ayarları özelleştirin</string>
+    <string name="pixys_about_dashboard_title">PixysOS Hakkında</string>
+    <string name="pixys_about_dashboard_summary">Tanıtımımız ve ekibimiz</string>
+    <string name="pixys_about_info">PixysOS, minimum özelleştirmelerle stok UI/UX sağlayan AOSP tabanlı bir Rom\'dur. Proje, diğer çeşitli projelerden çeşitli taahhütler özenle toplanarak yapılmıştır. AOSP tabanlı olması, kutudan çıkar çıkmaz sorunsuz ve gecikmesiz bir deneyim sağlar. Sürekli olarak daha fazla özellik eklemeye ve gelecekteki güncellemelerde daha da iyi hale getirmeye çalışacağız.</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">Kaynak kodumuza göz atın</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">Facebook sayfamıza katılın</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">Telegram grubumuza katılın</string>
+    <string name="pixys_about_contact_website_header">İndirme merkezi</string>
+    <string name="pixys_about_contact_website_description">İndirmeler ve içerikler için web sitemizi ziyaret edin</string>
+    <string name="pixys_core_category_header">Çekirdek takımı</string>
+    <string name="pixys_devices_category_header">Resmi cihazlar</string>
     <!-- Status Bar -->
+    <string name="status_bar_title">Durum çubuğu</string>
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Kilit ekranında uyutmak için çift dokunun</string>
+    <string name="double_tap_sleep_lockscreen_summary">Kilit ekranında cihazı uyutmak için herhangi bir yere çift dokunun</string>
     <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">Durum çubuğu öğeleri</string>
+    <string name="statusbar_tuner_summary">Hangi durum çubuğu simgelerinin devre dışı bırakılacağını seçin</string>
     <!-- Statusbar net monitor -->
+    <string name="traffic_title">Trafik göstergeleri</string>
+    <string name="network_traffic_state_title">Ağ trafiği</string>
+    <string name="network_traffic">Ağ trafiği</string>
+    <string name="network_traffic_location">Trafik göstergesi yerleşimi</string>
+    <string name="traffic_disabled">Devre dışı</string>
+    <string name="traffic_statusbar">Durum çubuğu</string>
+    <string name="traffic_expanded_statusbar">Genişletilmiş başlık</string>
+    <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizleme eşiği (KB/s)</string>
+    <string name="network_traffic_arrow">Okları göster</string>
+    <string name="network_traffic_arrow_summary">Ağ trafiği göstergesi oklarını göster</string>
+    <string name="network_traffic_type">İnternet etkinlik türünü seç</string>
+    <string name="show_network_traffic_combined">Birlikte (Yükleme + İndirme)</string>
+    <string name="show_network_traffic_dynamic">Dinamik</string>
+    <string name="show_network_traffic_up">Yükleme</string>
+    <string name="show_network_traffic_down">İndirme</string>
+    <string name="show_network_traffic_all">İkiside</string>
+    <string name="network_traffic_layout">Etkinlik düzeni</string>
+    <string name="network_traffic_layout_h">Yatay</string>
+    <string name="network_traffic_layout_v">Dikey</string>
+    <string name="nettraf_font_size">Tek net yazı tipi boyutu</string>
     <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Daha az bildirim penceresi</string>
+    <string name="less_boring_heads_up_summary">Tüm uygulamalar için bildirim pencerelerini dışı bırakır, sadece arama ve mesajlaşma uygulamaları için göstermeye devam eder</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Düzeni tersine çevir</string>
     <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Ekran açıkken bildirim sesi</string>
+    <string name="notification_sound_vib_screen_on_summary">Ekran açıkken bildirimler için ses ve titreşim çalın</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Parlaklık kaydırıcısı</string>
+    <string name="qs_show_brightness_slider_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
+    <string name="qs_show_auto_brightness_title">Otomatik parlaklık simgesi</string>
+    <string name="qs_show_auto_brightness_summary">Kaydırma çubuğunun yanında otomatik parlaklık geçişini göster</string>
+    <string name="qs_show_brightness_slider_show_never">Asla gösterme</string>
+    <string name="qs_show_brightness_slider_show_expanded">Genişletildiğinde göster</string>
+    <string name="qs_show_brightness_slider_show_always">Her zaman göster</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Medya kapak resmini göster</string>
+    <string name="lockscreen_media_art_summary">Şu anda çalan medyanın albüm kapağını kilit ekranında göster</string>
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">LTE yerine 4G göster</string>
+    <string name="show_fourg_summary">Durum çubuğundaki LTE göstergesini 4G ile değiştirir</string>
+    <!-- VoLTE switch -->
+    <string name="volte_switch_title">VoLTE simgesi</string>
+    <string name="volte_switch_summary">VoLTE simgesini göster</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi simgesi</string>
+    <string name="vowifi_icon_enabled">VoWiFi simgesi etkin</string>
+    <string name="vowifi_icon_disabled">VoWiFi simgesi devre dışı</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoLTE simgesi yerine VoWiFi</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
+    <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Pil stilleri</string>
+    <string name="battery_percent_title">Pil yüzdesi</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Pil stili</string>
+    <string name="status_bar_battery_style_icon_portrait">Dikey simge (varsayılan)</string>
+    <string name="status_bar_battery_style_circle">Daire</string>
+    <string name="status_bar_battery_style_dotted_circle">Daire (Noktalı)</string>
+    <string name="status_bar_battery_style_filled_circle">Daire (Dolgulu)</string>
+    <string name="status_bar_battery_style_text">Metin</string>
+    <string name="status_bar_battery_style_hidden">Gizli</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
+    <string name="status_bar_battery_percentage_default">Gizli (varsayılan)</string>
+    <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>
+    <string name="status_bar_battery_percentage_text_next">Simge dışında</string>
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <string name="quick_settings_media_player">Medya devam ettirme</string>
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <string name="quick_settings_media_player_summary">Medya oynatıcıyı hızlı ayarlar\'da gösterir ve devam ettirir. Yeniden başlatma gerektirir.</string>
+    <!-- ambient music ticker -->
+    <string name="ambient_music_location">Ortam ekranında müzik bilgisi göster</string>
+    <string name="ambient_music_disabled">Devre dışı</string>
+    <string name="ambient_music_bottom">Altta (varsayılan)</string>
+    <string name="ambient_music_center">Ortada (saatin altında)</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Her zaman açık ekranı programla</string>
+    <string name="always_on_display_schedule_summary">Zamanlama her zaman gün batımı/gün doğumu veya özel saat ile ekranda</string>
+    <string name="always_on_display_schedule_sunset">Gün batımı</string>
+    <string name="always_on_display_schedule_sunrise">Gün doğumu</string>
+    <string name="disabled">Devre dışı</string>
+    <string name="always_on_display_schedule_mixed_sunset">Gün batımından bir zamana kadar açılıyor</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Bir zamandan gün doğumuna kadar açılıyor</string>
+    <!-- Notification Media Options -->
+    <string name="media_category">Medya bildirimi seçenekleri</string>
+    <string name="artwork_media_background_title">Medya resmi arka planı</string>
+    <string name="artwork_media_background_summary">Medya resmini bildirim medyası arka planı olarak ayarla</string>
+    <!-- AOD Icons in Lockscreen! -->
+    <string name="lock_aod_icons_title">AOD/ortam ekranı özelleştirmeleri</string>
+    <string name="ambient_icons_lockscreen_title">Kilit ekranındaki AOD simgeleri</string>
+    <string name="ambient_icons_lockscreen_summary">Bildirimleri AOD simgeleriyle değiştirin</string>
+    <string name="ambient_icons_size_title">AOD simge boyutu</string>
+    <!-- FOD on doze -->
+    <string name="fod_on_doze_title">Uykuda FOD</string>
+    <string name="fod_on_doze_summary">Ortam ekranı ve AOD\'de ekranda parmak izini gösterin. Bu yalnızca simgeyi gizler ve işlevselliği devre dışı bırakmaz</string>
 </resources>

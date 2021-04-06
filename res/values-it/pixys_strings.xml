@@ -14,11 +14,56 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">Esplora</string>
+    <string name="pixys_statusbar_dashboard_title">Barra di Stato</string>
+    <string name="pixys_statusbar_dashboard_summary">Personalizza le icone della tua Barra di Stato</string>
+    <string name="pixys_qs_dashboard_title">Impostazioni Rapide</string>
+    <string name="pixys_qs_dashboard_summary">Personalizza le tue Impostazioni Rapide</string>
+    <string name="pixys_notifications_dashboard_title">Notificazioni</string>
+    <string name="pixys_notifications_dashboard_summary">Personalizza le Impostazioni delle Notifiche</string>
+    <string name="pixys_buttons_dashboard_title">Pulsanti</string>
+    <string name="pixys_lockscreen_dashboard_title">Schermata di blocco</string>
+    <string name="pixys_lockscreen_dashboard_summary">Personalizza la tua schermata di blocco</string>
+    <string name="pixys_gestures_dashboard_title">Gestures</string>
+    <string name="pixys_gestures_dashboard_summary">Personalizza il tuo Device con le Gestruers</string>
+    <string name="pixys_misc_dashboard_title">Altro</string>
+    <string name="pixys_misc_dashboard_summary">Personalizza con alcune impostazioni varie</string>
+    <string name="pixys_about_dashboard_summary">La nostra introduzione ed il nostro team</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">Visualizza il nostro codice sorgente</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">Visita la nostra pagina Facebook</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">Entra nel nostro gruppo di discussione Telegram</string>
+    <string name="pixys_about_contact_website_header">Centro di Download</string>
+    <string name="pixys_about_contact_website_description">Visita il nostro website per downloads ed altro</string>
+    <string name="pixys_core_category_header">Core Team</string>
+    <string name="pixys_devices_category_header">Dispositivi ufficiali</string>
     <!-- Status Bar -->
+    <string name="status_bar_title">Barra di stato</string>
+    <!-- Double Tap gestures -->
     <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">Elementi della barra di stato</string>
+    <string name="statusbar_tuner_summary">Seleziona quali icone della barra di stato verranno disabilitate</string>
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_layout_v">Verticale</string>
     <!-- Less boring heads up -->
     <!-- Navbar options -->
     <!-- Supress notifications if screen is on -->
     <!-- Quick Settings brightness slider -->
+    <!-- Lock screen cover art -->
+    <!-- 4G LTE switch -->
+    <!-- VoLTE switch -->
+    <!-- VoWiFi icon -->
+    <!-- Lockscreen battery info indicator  -->
+    <!-- Battery Styles -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <!-- ambient music ticker -->
+    <!-- AOD Schedule -->
+    <!-- Notification Media Options -->
+    <!-- AOD Icons in Lockscreen! -->
+    <!-- FOD on doze -->
 </resources>

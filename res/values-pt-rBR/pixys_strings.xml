@@ -14,11 +14,140 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">Explorar</string>
+    <string name="pixys_settings_dashboard_summary">Explore esse Bagualismo Tchê</string>
+    <string name="pixys_statusbar_dashboard_title">Barra de status</string>
+    <string name="pixys_statusbar_dashboard_summary">Personalize seus Ícones da Barra de Status</string>
+    <string name="pixys_qs_dashboard_title">Configurações Rápidas</string>
+    <string name="pixys_qs_dashboard_summary">Personalize suas Configurações Rápidas</string>
+    <string name="pixys_notifications_dashboard_title">Notificações</string>
+    <string name="pixys_notifications_dashboard_summary">Personalizar as Configurações de Notificação</string>
+    <string name="pixys_buttons_dashboard_title">Botões</string>
+    <string name="pixys_buttons_dashboard_summary">Personalizar teclas de hardware</string>
+    <string name="pixys_lockscreen_dashboard_title">Tela de Bloqueio</string>
+    <string name="pixys_lockscreen_dashboard_summary">Personalizar a tela de bloqueio</string>
+    <string name="pixys_gestures_dashboard_title">Gestos</string>
+    <string name="pixys_gestures_dashboard_summary">Personalize Seu Dispositivo com Gestos</string>
+    <string name="pixys_misc_dashboard_title">Diversos</string>
+    <string name="pixys_misc_dashboard_summary">Personalize com Algumas Configurações Diversas</string>
+    <string name="pixys_about_dashboard_title">Sobre a PixysOS</string>
+    <string name="pixys_about_dashboard_summary">Nossa introdução e nossa equipe</string>
+    <string name="pixys_about_info">O PixysOS é uma ROM baseada em AOSP que fornece interface de usuário/UX padrão com personalizações mínimas. O projecto foi feito através de várias autorizações de vários outros projectos. Sendo baseado no AOSP, ele fornece uma experiência suave e sem atrasos. Nós tentaremos constantemente adicionar mais recursos e torná-lo ainda melhor em atualizações futuras.</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">Veja nosso código fonte</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">Visite nossa pagina do Facebook</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">Participe do nosso grupo no Telegram</string>
+    <string name="pixys_about_contact_website_header">Centro de Download</string>
+    <string name="pixys_about_contact_website_description">Visite nosso site para downloads e atualizações</string>
+    <string name="pixys_core_category_header">Equipe de Desenvolvimento</string>
+    <string name="pixys_devices_category_header">Dispositivos Oficiais</string>
     <!-- Status Bar -->
+    <string name="status_bar_title">Barra de Status</string>
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Toque duplo para desligar na tela de bloqueio</string>
+    <string name="double_tap_sleep_lockscreen_summary">Toque duas vezes em qualquer lugar na tela de bloqueio para colocar o dispositivo para dormir</string>
     <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">Itens da barra de status</string>
+    <string name="statusbar_tuner_summary">Selecione quais ícones da barra de status serão desativados</string>
     <!-- Statusbar net monitor -->
+    <string name="traffic_title">Indicador de tráfego de rede</string>
+    <string name="network_traffic_state_title">Tráfego de Rede</string>
+    <string name="network_traffic">Tráfego de Rede</string>
+    <string name="network_traffic_location">Posicionamento indicador de tráfego</string>
+    <string name="traffic_disabled">Desativado</string>
+    <string name="traffic_statusbar">Barra de status</string>
+    <string name="traffic_expanded_statusbar">Cabeçalho expandido</string>
+    <string name="network_traffic_autohide_threshold_title">Limite para ocultar automaticamente a atividade de rede (KB/s)</string>
+    <string name="network_traffic_arrow">Mostrar setas</string>
+    <string name="network_traffic_arrow_summary">Mostrar as setas dos indicadores de tráfego</string>
+    <string name="network_traffic_type">Selecione o tipo de atividade da rede</string>
+    <string name="show_network_traffic_combined">Combinado (Upload + Download)</string>
+    <string name="show_network_traffic_dynamic">Dinâmico</string>
+    <string name="show_network_traffic_up">Enviar</string>
+    <string name="show_network_traffic_down">Baixar</string>
+    <string name="show_network_traffic_all">Ambos</string>
+    <string name="network_traffic_layout">Layout da atividade</string>
+    <string name="network_traffic_layout_h">Horizontal</string>
+    <string name="network_traffic_layout_v">Vertical</string>
+    <string name="nettraf_font_size">Tamanho da fonte da rede</string>
     <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Notificações flutuantes menos irritantes</string>
+    <string name="less_boring_heads_up_summary">Desative rapidamente as notificações pop-up para todos os aplicativos, mas mantenha-as ativadas para os aplicativos de discagem e mensagens</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverter layout</string>
     <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Som de notificação se ativo</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproduzir som e vibrar com notificações quando a tela estiver ligada</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Controle de brilho</string>
+    <string name="qs_show_brightness_slider_summary">Mostrar controle de brilho deslizante no painel de configurações rápidas</string>
+    <string name="qs_show_auto_brightness_title">Ícone de brilho automático</string>
+    <string name="qs_show_auto_brightness_summary">Mostrar controle de brilho adaptável perto do controle deslizante</string>
+    <string name="qs_show_brightness_slider_show_never">Nunca mostrar</string>
+    <string name="qs_show_brightness_slider_show_expanded">Mostrar quando expandido</string>
+    <string name="qs_show_brightness_slider_show_always">Mostrar sempre</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Exibir capa do álbum</string>
+    <string name="lockscreen_media_art_summary">Mostrar a arte do álbum na tela de bloqueio atual</string>
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">Mostrar 4G ao invés de LTE</string>
+    <string name="show_fourg_summary">Substitui o indicador 4G por LTE na barra de status</string>
+    <!-- VoLTE switch -->
+    <string name="volte_switch_title">Ícone VoLTE</string>
+    <string name="volte_switch_summary">Mostrar ícone VoLTE</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Ícone VoWiFi</string>
+    <string name="vowifi_icon_enabled">Ícone do VoWiFi Ativado</string>
+    <string name="vowifi_icon_disabled">Ícone do VoWiFi desativado</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi em vez do ícone VoLTE</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Informações de carregamento na tela de bloqueio</string>
+    <string name="lockscreen_battery_info_summary">Exibe a corrente máxima e tensão do carregador e a temperatura da bateria na tela de bloqueio durante o carregamento</string>
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Estilo do ícone da bateria</string>
+    <string name="battery_percent_title">Porcentagem da bateria</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Estilo de ícone da bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone em modo retrato (padrão)</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (pontilhado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (preenchido)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Oculto (padrão)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <string name="quick_settings_media_player">Resumo de mídia</string>
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <string name="quick_settings_media_player_summary">Mostra e persiste no media player em Configurações Rápidas. Requer reinicialização.</string>
+    <!-- ambient music ticker -->
+    <string name="ambient_music_location">Mostrar ícone de música ambiente</string>
+    <string name="ambient_music_disabled">Desativado</string>
+    <string name="ambient_music_bottom">Em baixo (padrão)</string>
+    <string name="ambient_music_center">Centralizado (no relógio)</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Cronograma da tela ambiente sempre ativa</string>
+    <string name="always_on_display_schedule_summary">Programar Tela ambiente sempre ativa com pôr-do-sol/nascer ou horário personalizado</string>
+    <string name="always_on_display_schedule_sunset">Ensolarado</string>
+    <string name="always_on_display_schedule_sunrise">Amanhecer</string>
+    <string name="disabled">Desabilitado</string>
+    <string name="always_on_display_schedule_mixed_sunset">Ligar do pôr do sol até um tempo</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Ligar de um tempo até o nascer do sol</string>
+    <!-- Notification Media Options -->
+    <string name="media_category">Opções de notificação</string>
+    <string name="artwork_media_background_title">Fundo de mídia da arte</string>
+    <string name="artwork_media_background_summary">Definir arte de mídia como fundo de mídia de notificação</string>
+    <!-- AOD Icons in Lockscreen! -->
+    <string name="lock_aod_icons_title">Personalizações da tela AOD/Ambiente</string>
+    <string name="ambient_icons_lockscreen_title">Ícones da tela ambiente sempre ativa na tela de bloqueio</string>
+    <string name="ambient_icons_lockscreen_summary">Substituir notificações por ícones AOD</string>
+    <string name="ambient_icons_size_title">Tamanho dos ícones na tela ambiente</string>
+    <!-- FOD on doze -->
+    <string name="fod_on_doze_title">Impressão Digital na tela ambiente</string>
+    <string name="fod_on_doze_summary">Mostrar impressão digital na tela ambiente. Isso apenas oculta o ícone e não desativará a funcionalidade</string>
 </resources>
