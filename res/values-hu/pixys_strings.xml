@@ -45,6 +45,9 @@
     <string name="pixys_devices_category_header">Hivatalos eszközök</string>
     <!-- Status Bar -->
     <string name="status_bar_title">Állapotsor</string>
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Záróképernyő dupla érintésére alvómódba kerül a készülék</string>
+    <string name="double_tap_sleep_lockscreen_summary">A záróképernyő dupla érintése kikapcsolja a képernyőt</string>
     <!--SystemUI Tuner -->
     <string name="statusbar_tuner_title">Állapotsori elemek</string>
     <string name="statusbar_tuner_summary">Válassza ki a letiltandó állapotsor ikonjait</string>
@@ -85,4 +88,66 @@
     <string name="qs_show_brightness_slider_show_never">Soha ne mutassa</string>
     <string name="qs_show_brightness_slider_show_expanded">Kiterjesztéskor jelenítse meg</string>
     <string name="qs_show_brightness_slider_show_always">Mindig mutat</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Médiaborító megjelenítése</string>
+    <string name="lockscreen_media_art_summary">Médiaborító megjelenítése a lezárási képernyőn</string>
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">4G megjelenítése LTE helyett</string>
+    <string name="show_fourg_summary">Lecseréli az LTE hálozatkijelző ikonját 4G-re</string>
+    <!-- VoLTE switch -->
+    <string name="volte_switch_title">VoLTE ikon</string>
+    <string name="volte_switch_summary">Megjeleníti a VoLTE ikont</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWIFI-ikon</string>
+    <string name="vowifi_icon_enabled">VoWiFi ikon stílusa</string>
+    <string name="vowifi_icon_disabled">VoWiFi ikon stílusa</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi a VoLTE helyett</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Töltés kijelzése képernyőzáron</string>
+    <string name="lockscreen_battery_info_summary">Töltés közben jelenítse meg a tárgyilagos töltő maximális áramát és feszültségét, valamint az akkumulátor hőmérsékletét a zár képernyőn</string>
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Akkumulátor stílus</string>
+    <string name="battery_percent_title">Akkumulátor százalék</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Akkumulátor stílus</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikon álló (alapértelmezett)</string>
+    <string name="status_bar_battery_style_circle">Kör</string>
+    <string name="status_bar_battery_style_dotted_circle">Kör (Pontozott)</string>
+    <string name="status_bar_battery_style_filled_circle">Kör (Kitöltött)</string>
+    <string name="status_bar_battery_style_text">Szöveg</string>
+    <string name="status_bar_battery_style_hidden">Rejtett</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Akkumulátor százalék</string>
+    <string name="status_bar_battery_percentage_default">Rejtett (alapértelmezett)</string>
+    <string name="status_bar_battery_percentage_text_inside">Az ikon belsejében</string>
+    <string name="status_bar_battery_percentage_text_next">Az ikon mellett</string>
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <string name="quick_settings_media_player">Média folytatás</string>
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <string name="quick_settings_media_player_summary">A médialejátszót a Gyors beállítások között jeleníti meg. Újraindítást igényel.</string>
+    <!-- ambient music ticker -->
+    <string name="ambient_music_location">Zeneszám a környezeti kijelzőn</string>
+    <string name="ambient_music_disabled">Letiltva</string>
+    <string name="ambient_music_bottom">Az alján (Alapértelmezett)</string>
+    <string name="ambient_music_center">Középre (a cLock alatt)</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Képernyő mindig bekapcsolva bekapcsolva</string>
+    <string name="always_on_display_schedule_summary">Ütemezés Mindig a naplemente / napkelte vagy egyedi idő szerint látható</string>
+    <string name="always_on_display_schedule_sunset">Naplemente</string>
+    <string name="always_on_display_schedule_sunrise">Napkelte</string>
+    <string name="disabled">Letiltva</string>
+    <string name="always_on_display_schedule_mixed_sunset">Napnyugtától napkeltéig kapcsol be</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Napnyugtától napkeltéig kapcsol be</string>
+    <!-- Notification Media Options -->
+    <string name="media_category">Értesítési beállítások</string>
+    <string name="artwork_media_background_title">Grafika média háttér</string>
+    <string name="artwork_media_background_summary">Állítsa be a média grafikát értesítési média háttérként</string>
+    <!-- AOD Icons in Lockscreen! -->
+    <string name="lock_aod_icons_title">AOD/környezeti kijelző testreszabása</string>
+    <string name="ambient_icons_lockscreen_title">Értesítések a lezárási képernyőn</string>
+    <string name="ambient_icons_lockscreen_summary">Cserélje le az értesítéseket AOD ikonokra</string>
+    <string name="ambient_icons_size_title">AOD ikonok mérete</string>
+    <!-- FOD on doze -->
+    <string name="fod_on_doze_title">FOD Szundi</string>
+    <string name="fod_on_doze_summary">Az ujjlenyomat megjelenítése a kijelzőn a környezeti kijelzőn és az AOD-n. Ez csak az ikont rejti, és nem tiltja le a funkcionalitást</string>
 </resources>

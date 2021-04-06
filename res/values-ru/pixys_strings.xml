@@ -14,11 +14,55 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">Дополнительно</string>
+    <string name="pixys_settings_dashboard_summary">Дополнительные настройки</string>
+    <string name="pixys_statusbar_dashboard_title">Строка состояния</string>
+    <string name="pixys_statusbar_dashboard_summary">Настройка иконок в строке состояния</string>
+    <string name="pixys_qs_dashboard_title">Быстрые настройки</string>
+    <string name="pixys_qs_dashboard_summary">Настройте быстрые настройки</string>
+    <string name="pixys_notifications_dashboard_title">Уведомления</string>
+    <string name="pixys_notifications_dashboard_summary">Настройте ваши уведомления</string>
+    <string name="pixys_buttons_dashboard_title">Кнопки</string>
+    <string name="pixys_buttons_dashboard_summary">Настройте аппаратные кнопки</string>
+    <string name="pixys_lockscreen_dashboard_title">Экран блокировки</string>
+    <string name="pixys_lockscreen_dashboard_summary">Настроить экран блокировки</string>
+    <string name="pixys_gestures_dashboard_title">Жесты</string>
+    <string name="pixys_gestures_dashboard_summary">Настройте жесты</string>
+    <string name="pixys_misc_dashboard_title">Прочее</string>
+    <string name="pixys_about_dashboard_title">О PixysOS</string>
     <!-- Status Bar -->
+    <!-- Double Tap gestures -->
     <!--SystemUI Tuner -->
     <!-- Statusbar net monitor -->
+    <string name="traffic_title">Индикаторы трафика</string>
+    <string name="network_traffic_state_title">Сетевой трафик</string>
+    <string name="network_traffic">Сетевой трафик</string>
+    <string name="network_traffic_location">Расположение индикатора трафика</string>
+    <string name="traffic_disabled">Отключено</string>
+    <string name="traffic_statusbar">Строка состояния</string>
+    <string name="network_traffic_autohide_threshold_title">Порог отображения сетевой активности (КБ/с)</string>
+    <string name="network_traffic_arrow">Показывать стрелки</string>
+    <string name="network_traffic_arrow_summary">Скрывать стрелки индикатора сетевого трафика</string>
+    <string name="network_traffic_type">Выберите тип сетевой активности</string>
+    <string name="show_network_traffic_combined">Комбинированный (Выгрузка + Загрузка)</string>
+    <string name="show_network_traffic_dynamic">Динамический</string>
     <!-- Less boring heads up -->
     <!-- Navbar options -->
     <!-- Supress notifications if screen is on -->
     <!-- Quick Settings brightness slider -->
+    <!-- Lock screen cover art -->
+    <!-- 4G LTE switch -->
+    <!-- VoLTE switch -->
+    <!-- VoWiFi icon -->
+    <!-- Lockscreen battery info indicator  -->
+    <!-- Battery Styles -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <!-- ambient music ticker -->
+    <!-- AOD Schedule -->
+    <!-- Notification Media Options -->
+    <!-- AOD Icons in Lockscreen! -->
+    <!-- FOD on doze -->
 </resources>

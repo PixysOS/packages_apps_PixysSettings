@@ -40,11 +40,96 @@
     <string name="pixys_about_contact_telegram_header">Telegram</string>
     <string name="pixys_about_contact_telegram_description">Telegram グループに参加する</string>
     <string name="pixys_about_contact_website_header">ダウンロードセンター</string>
+    <string name="pixys_about_contact_website_description">ダウンロードなどをするには私達のウェブサイトを訪問して下さい</string>
+    <string name="pixys_core_category_header">コアチーム</string>
+    <string name="pixys_devices_category_header">公式端末</string>
     <!-- Status Bar -->
+    <string name="status_bar_title">ステータスバー</string>
+    <!-- Double Tap gestures -->
     <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">ステータスバーのアイコン</string>
+    <string name="statusbar_tuner_summary">無効にするステータスバーのアイコンを選択する</string>
     <!-- Statusbar net monitor -->
+    <string name="traffic_title">通信速度</string>
+    <string name="network_traffic_state_title">通信速度</string>
+    <string name="network_traffic">通信速度</string>
+    <string name="network_traffic_location">電波アイコンの置き換え</string>
+    <string name="traffic_disabled">無効</string>
+    <string name="traffic_statusbar">ステータスバー</string>
+    <string name="traffic_expanded_statusbar">拡張ヘッダー</string>
+    <string name="network_traffic_autohide_threshold_title">自動非表示にするしきい値 (KB/s)</string>
+    <string name="network_traffic_arrow">矢印を表示</string>
+    <string name="network_traffic_arrow_summary">通信方向の矢印を表示する</string>
+    <string name="network_traffic_type">表示する通信方向を選択</string>
+    <string name="show_network_traffic_combined">両方 (送信+受信)</string>
+    <string name="show_network_traffic_dynamic">ダイナミック</string>
+    <string name="show_network_traffic_up">送信</string>
+    <string name="show_network_traffic_down">受信</string>
+    <string name="show_network_traffic_all">両方</string>
+    <string name="network_traffic_layout">アクティビティレイアウト</string>
+    <string name="network_traffic_layout_h">横</string>
+    <string name="network_traffic_layout_v">縦</string>
+    <string name="nettraf_font_size">ネットワークフォントサイズ</string>
     <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">邪魔な Heads Up を減らす</string>
+    <string name="less_boring_heads_up_summary">素早く全てのアプリの Heads Up 通知を無効化しますが電話とメッセージアプリは無効化されません</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">レイアウトを反転</string>
     <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">画面点灯中の通知の音楽</string>
+    <string name="notification_sound_vib_screen_on_summary">画面点灯中に通知を受信した時に通知音と振動を鳴らす</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">明るさスライダー</string>
+    <string name="qs_show_brightness_slider_summary">クイック設定パネルに明るさスライダーを表示する</string>
+    <string name="qs_show_auto_brightness_title">自動明るさアイコン</string>
+    <string name="qs_show_auto_brightness_summary">スライダーの近くに明るさ自動調節のトグルを表示する</string>
+    <string name="qs_show_brightness_slider_show_never">非表示</string>
+    <string name="qs_show_brightness_slider_show_expanded">拡張時に表示</string>
+    <string name="qs_show_brightness_slider_show_always">常に表示</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">メディアカバーアートを表示</string>
+    <string name="lockscreen_media_art_summary">再生中のメディアアルバムアートをロック画面に表示する</string>
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">LTE の代わりに 4G を表示</string>
+    <string name="show_fourg_summary">電波アイコンを LTE から 4G に置き換える</string>
+    <!-- VoLTE switch -->
+    <string name="volte_switch_title">VoLTE アイコン</string>
+    <string name="volte_switch_summary">VoLTE アイコンを表示する</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi アイコン</string>
+    <string name="vowifi_icon_enabled">VoWiFi アイコンは有効です</string>
+    <string name="vowifi_icon_disabled">VoWiFi アイコンは無効です</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoLTE の代わりの VoWiFi</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
+    <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の情報を表示する</string>
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">バッテリースタイル</string>
+    <string name="battery_percent_title">バッテリー残量</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">バッテリースタイル</string>
+    <string name="status_bar_battery_style_icon_portrait">縦アイコン (既定)</string>
+    <string name="status_bar_battery_style_circle">円</string>
+    <string name="status_bar_battery_style_dotted_circle">円 (点線)</string>
+    <string name="status_bar_battery_style_filled_circle">円 (塗り潰し)</string>
+    <string name="status_bar_battery_style_text">文字</string>
+    <string name="status_bar_battery_style_hidden">非表示</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">バッテリー残量</string>
+    <string name="status_bar_battery_percentage_default">非表示 (既定)</string>
+    <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
+    <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <string name="quick_settings_media_player">メディアの再開</string>
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <string name="quick_settings_media_player_summary">クイック設定でメディアプレーヤーの表示を維持します。再起動が必要です。</string>
+    <!-- ambient music ticker -->
+    <string name="ambient_music_location">アンビエント音楽ティッカーを表示</string>
+    <string name="ambient_music_disabled">無効</string>
+    <string name="ambient_music_bottom">下部に表示 (既定)</string>
+    <string name="ambient_music_center">中央に表示 (cLockの下)</string>
+    <!-- AOD Schedule -->
+    <!-- Notification Media Options -->
+    <!-- AOD Icons in Lockscreen! -->
+    <!-- FOD on doze -->
 </resources>

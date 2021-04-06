@@ -45,6 +45,9 @@
     <string name="pixys_devices_category_header">Perangkat Resmi</string>
     <!-- Status Bar -->
     <string name="status_bar_title">Bilah Status</string>
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Ketuk dua kali untuk tidur di layar kunci</string>
+    <string name="double_tap_sleep_lockscreen_summary">Ketuk dua kali di mana saja pada layar kunci untuk membuat perangkat tidur</string>
     <!--SystemUI Tuner -->
     <string name="statusbar_tuner_title">Item bilah status</string>
     <string name="statusbar_tuner_summary">Pilih ikon bilah status mana yang akan dinonaktifkan</string>
@@ -85,4 +88,66 @@
     <string name="qs_show_brightness_slider_show_never">Jangan tampilkan</string>
     <string name="qs_show_brightness_slider_show_expanded">Tampilkan ketika diperluas</string>
     <string name="qs_show_brightness_slider_show_always">Selalu tampilkan</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Tampilkan sampul media</string>
+    <string name="lockscreen_media_art_summary">Tampilkan seni album media yang diputar saat ini di layar kunci</string>
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">Tampilkan 4G daripada LTE</string>
+    <string name="show_fourg_summary">Ganti indikator LTE dengan 4G</string>
+    <!-- VoLTE switch -->
+    <string name="volte_switch_title">Ikon VoLTE</string>
+    <string name="volte_switch_summary">Tampilkan ikon VoLTE</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Ikon VoWiFi</string>
+    <string name="vowifi_icon_enabled">Ikon VoWiFi diaktifkan</string>
+    <string name="vowifi_icon_disabled">Ikon VoWiFi dinonaktifkan</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi, bukan ikon VoLTE</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Info pengisian daya pada layar kunci</string>
+    <string name="lockscreen_battery_info_summary">Menampilkan arus dan tegangan maksimal pengisi daya yang dinegosiasikan dan suhu baterai pada layar kunci saat mengisi daya</string>
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Gaya Baterai</string>
+    <string name="battery_percent_title">Persentase baterai</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Gaya Baterai</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikon tegak (standar)</string>
+    <string name="status_bar_battery_style_circle">Lingkaran</string>
+    <string name="status_bar_battery_style_dotted_circle">Lingkaran (putus-putus)</string>
+    <string name="status_bar_battery_style_filled_circle">Lingkaran (terisi)</string>
+    <string name="status_bar_battery_style_text">Teks</string>
+    <string name="status_bar_battery_style_hidden">Sembunyikan</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Persentase baterai</string>
+    <string name="status_bar_battery_percentage_default">Sembunyikan (bawaan)</string>
+    <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
+    <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <string name="quick_settings_media_player">Dimulainya kembali Media</string>
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <string name="quick_settings_media_player_summary">Menampilkan dan mempertahankan pemutar media di Setelan Cepat. Membutuhkan mulai ulang.</string>
+    <!-- ambient music ticker -->
+    <string name="ambient_music_location">Tampilkan ticker musik ambien</string>
+    <string name="ambient_music_disabled">Dinonaktifkan</string>
+    <string name="ambient_music_bottom">Di bagian bawah (default)</string>
+    <string name="ambient_music_center">Tengah (di bawah jam)</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Jadwal Layar Selalu Hidup</string>
+    <string name="always_on_display_schedule_summary">Jadwal Layar Selalu hidup dengan matahari terbenam/matahari terbit atau waktu khusus</string>
+    <string name="always_on_display_schedule_sunset">Matahari terbenam</string>
+    <string name="always_on_display_schedule_sunrise">Matahari terbit</string>
+    <string name="disabled">Dinonaktifkan</string>
+    <string name="always_on_display_schedule_mixed_sunset">Menyala dari matahari terbenam sampai waktu tertentu</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Menyala dari waktu tertentu sampai matahari terbit</string>
+    <!-- Notification Media Options -->
+    <string name="media_category">Opsi Pemberitahuan Media</string>
+    <string name="artwork_media_background_title">Latar belakang media karya seni</string>
+    <string name="artwork_media_background_summary">Tetapkan media karya seni sebagai latar belakang media notifikasi</string>
+    <!-- AOD Icons in Lockscreen! -->
+    <string name="lock_aod_icons_title">AOD/kustomisasi tampilan ambien</string>
+    <string name="ambient_icons_lockscreen_title">Ikon AOD di layar kunci</string>
+    <string name="ambient_icons_lockscreen_summary">Ganti notifikasi dengan ikon AOD</string>
+    <string name="ambient_icons_size_title">Ukuran ikon AOD</string>
+    <!-- FOD on doze -->
+    <string name="fod_on_doze_title">FOD saat tidur</string>
+    <string name="fod_on_doze_summary">Tunjukkan sidik jari dalam layar pada tampilan ambien dan AOD. Ini hanya menyembunyikan ikon dan tidak akan menonaktifkan fungsionalitas</string>
 </resources>

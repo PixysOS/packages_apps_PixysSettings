@@ -14,11 +14,90 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">探索</string>
+    <string name="pixys_statusbar_dashboard_title">狀態列</string>
+    <string name="pixys_statusbar_dashboard_summary">自定義狀態列圖標</string>
+    <string name="pixys_qs_dashboard_title">快速設定</string>
+    <string name="pixys_qs_dashboard_summary">自定義快速設置</string>
+    <string name="pixys_notifications_dashboard_title">通知</string>
+    <string name="pixys_notifications_dashboard_summary">自定義通知設定</string>
+    <string name="pixys_buttons_dashboard_title">按鍵</string>
+    <string name="pixys_buttons_dashboard_summary">自定義實體按鈕</string>
+    <string name="pixys_lockscreen_dashboard_title">鎖定螢幕介面</string>
+    <string name="pixys_lockscreen_dashboard_summary">自訂鎖定螢幕介面</string>
+    <string name="pixys_gestures_dashboard_title">手勢</string>
+    <string name="pixys_gestures_dashboard_summary">自定義設備手勢</string>
+    <string name="pixys_misc_dashboard_title">其他設定</string>
+    <string name="pixys_misc_dashboard_summary">自定義其他設定</string>
+    <string name="pixys_about_dashboard_title">關於 PixysOS</string>
+    <string name="pixys_about_dashboard_summary">介紹及團隊簡介</string>
+    <string name="pixys_about_info">PixysOS 是一個根據 AOSP 的 rom，並提供原生 UI/UX 及各種自訂功能和底層主題引擎。此項目是透過 cherry-pick 以及其他各個項目的各種commit完成的。由於是根據 AOSP，rom可以提供現成流暢、無卡頓的 Android 體驗。我們將在未來的更新中，努力增加更多功能，並使其更加完善。</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">瀏覽我們的程式原始碼</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">加入我們的Facebook專頁</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">加入我們的Telegram討論群組</string>
+    <string name="pixys_about_contact_website_header">下載中心</string>
+    <string name="pixys_about_contact_website_description">訪問我們的網站以下載和更多</string>
+    <string name="pixys_core_category_header">核心團隊</string>
+    <string name="pixys_devices_category_header">官方支援裝置</string>
     <!-- Status Bar -->
+    <string name="status_bar_title">狀態列</string>
+    <!-- Double Tap gestures -->
     <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">狀態列項目</string>
+    <string name="statusbar_tuner_summary">選擇要禁用的狀態列圖標</string>
     <!-- Statusbar net monitor -->
+    <string name="traffic_title">網速顯示</string>
+    <string name="network_traffic_state_title">網路流量</string>
+    <string name="network_traffic">網路流量</string>
+    <string name="network_traffic_location">網速箭頭位置</string>
+    <string name="traffic_disabled">已停用</string>
+    <string name="traffic_statusbar">狀態列</string>
+    <string name="traffic_expanded_statusbar">快速設定面板上方</string>
+    <string name="network_traffic_autohide_threshold_title">網路活動自動隱藏下限 (KB/s)</string>
+    <string name="network_traffic_arrow">顯示箭頭</string>
+    <string name="network_traffic_arrow_summary">顯示網速箭頭</string>
+    <string name="network_traffic_type">選擇網路活動類型</string>
+    <string name="show_network_traffic_combined">組合 (上傳+下載)</string>
+    <string name="show_network_traffic_dynamic">動態</string>
+    <string name="show_network_traffic_up">上傳</string>
+    <string name="show_network_traffic_down">下載</string>
+    <string name="show_network_traffic_all">所有</string>
+    <string name="network_traffic_layout">主要活動版型</string>
+    <string name="network_traffic_layout_h">橫向</string>
+    <string name="network_traffic_layout_v">縱向</string>
+    <string name="nettraf_font_size">字體大小</string>
     <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">減少無關的浮動通知</string>
+    <string name="less_boring_heads_up_summary">快速禁用除了電話與簡訊以外程式的浮動通知</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">反轉佈局</string>
     <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">螢幕開啟時的通知音效</string>
+    <string name="notification_sound_vib_screen_on_summary">在螢幕開啟時播放音效和震動通知</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">亮度控制條</string>
+    <string name="qs_show_brightness_slider_summary">在快速設定面板中顯示亮度控制條</string>
+    <string name="qs_show_auto_brightness_title">自動亮度圖示</string>
+    <string name="qs_show_auto_brightness_summary">在亮度控制條附近顯示自動調節亮度開關</string>
+    <string name="qs_show_brightness_slider_show_never">永不顯示</string>
+    <string name="qs_show_brightness_slider_show_expanded">當展開時顯示</string>
+    <string name="qs_show_brightness_slider_show_always">始終顯示</string>
+    <!-- Lock screen cover art -->
+    <!-- 4G LTE switch -->
+    <!-- VoLTE switch -->
+    <!-- VoWiFi icon -->
+    <!-- Lockscreen battery info indicator  -->
+    <!-- Battery Styles -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <!-- ambient music ticker -->
+    <!-- AOD Schedule -->
+    <!-- Notification Media Options -->
+    <!-- AOD Icons in Lockscreen! -->
+    <!-- FOD on doze -->
 </resources>

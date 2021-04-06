@@ -15,10 +15,26 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Status Bar -->
+    <!-- Double Tap gestures -->
     <!--SystemUI Tuner -->
     <!-- Statusbar net monitor -->
     <!-- Less boring heads up -->
     <!-- Navbar options -->
     <!-- Supress notifications if screen is on -->
     <!-- Quick Settings brightness slider -->
+    <!-- Lock screen cover art -->
+    <!-- 4G LTE switch -->
+    <!-- VoLTE switch -->
+    <!-- VoWiFi icon -->
+    <!-- Lockscreen battery info indicator  -->
+    <!-- Battery Styles -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <!-- ambient music ticker -->
+    <!-- AOD Schedule -->
+    <!-- Notification Media Options -->
+    <!-- AOD Icons in Lockscreen! -->
+    <!-- FOD on doze -->
 </resources>

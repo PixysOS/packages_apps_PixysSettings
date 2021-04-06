@@ -14,11 +14,91 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">Explorar</string>
+    <string name="pixys_settings_dashboard_summary">Explora los Extras</string>
+    <string name="pixys_statusbar_dashboard_title">Barra de Estado</string>
+    <string name="pixys_statusbar_dashboard_summary">Personaliza tus iconos de la barra de estado</string>
+    <string name="pixys_qs_dashboard_title">Ajustes Rápidos</string>
+    <string name="pixys_qs_dashboard_summary">Personaliza tus Ajustes Rápidos</string>
+    <string name="pixys_notifications_dashboard_title">Notificaciones</string>
+    <string name="pixys_notifications_dashboard_summary">Personaliza tus Ajustes de Notificación</string>
+    <string name="pixys_buttons_dashboard_title">Botones</string>
+    <string name="pixys_buttons_dashboard_summary">Personaliza tus Teclas Físicas</string>
+    <string name="pixys_lockscreen_dashboard_title">Pantalla de bloqueo</string>
+    <string name="pixys_lockscreen_dashboard_summary">Personaliza tu pantalla de bloqueo</string>
+    <string name="pixys_gestures_dashboard_title">Gestos</string>
+    <string name="pixys_gestures_dashboard_summary">Personaliza Tu Dispositivo con Gestos</string>
+    <string name="pixys_misc_dashboard_title">Misceláneos</string>
+    <string name="pixys_misc_dashboard_summary">Personaliza Con Algunos Ajustes Misceláneos</string>
+    <string name="pixys_about_dashboard_title">Acerca de PixysOS</string>
+    <string name="pixys_about_dashboard_summary">Nuestra introducción y nuestro equipo</string>
+    <string name="pixys_about_info">PixysOS es una ROM basada en AOSP que proporciona UI/UX de stock con personalizaciones mínimas. El proyecto se ha realizado seleccionando varios compromisos de otros proyectos varios. Siendo basada en AOSP, proporciona una experiencia suave y sin ralentizaciones. Intentaremos constantemente añadir más características y hacerla aún mejor en futuras actualizaciones.</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">Ver nuestro código fuente</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">Únete a nuestra página de facebook</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">Únete a nuestro grupo de discusión de Telegram</string>
+    <string name="pixys_about_contact_website_header">Centro de Descargas</string>
+    <string name="pixys_about_contact_website_description">Visita nuestro sitio web para descargas y más</string>
+    <string name="pixys_core_category_header">Equipo Principal</string>
+    <string name="pixys_devices_category_header">Dispositivos Oficiales</string>
     <!-- Status Bar -->
+    <string name="status_bar_title">Barra de Estado</string>
+    <!-- Double Tap gestures -->
     <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">Elementos de la Barra de Estado</string>
+    <string name="statusbar_tuner_summary">Seleccionar los iconos de la barra de estado a desactivar</string>
     <!-- Statusbar net monitor -->
+    <string name="traffic_title">Indicadores de tráfico</string>
+    <string name="network_traffic_state_title">Tráfico de red</string>
+    <string name="network_traffic">Tráfico de red</string>
+    <string name="network_traffic_location">Colocación del indicador de tráfico</string>
+    <string name="traffic_disabled">Deshabilitado</string>
+    <string name="traffic_statusbar">Barra de estado</string>
+    <string name="traffic_expanded_statusbar">Encabezado expandido</string>
+    <string name="network_traffic_autohide_threshold_title">Umbral de ocultación automática de la actividad de red (KB/s)</string>
+    <string name="network_traffic_arrow">Mostrar flechas</string>
+    <string name="network_traffic_arrow_summary">Mostrar las flechas del indicador de tráfico de red</string>
+    <string name="network_traffic_type">Seleccionar el tipo de actividad de red</string>
+    <string name="show_network_traffic_combined">Combinado (Carga + Descarga)</string>
+    <string name="show_network_traffic_dynamic">Dinámico</string>
+    <string name="show_network_traffic_up">Subir</string>
+    <string name="show_network_traffic_down">Descarga</string>
+    <string name="show_network_traffic_all">Ambos</string>
+    <string name="network_traffic_layout">Diseño de la actividad</string>
+    <string name="network_traffic_layout_h">Horizontal</string>
+    <string name="network_traffic_layout_v">Vértice</string>
+    <string name="nettraf_font_size">Tamaño de fuente de red única</string>
     <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Notificaciones emergentes menos aburridas</string>
+    <string name="less_boring_heads_up_summary">Deshabilita rápidamente las notificaciones emergentes para todas las aplicaciones, pero las mantiene habilitadas para aplicaciones de llamada y mensajería</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invertir botones</string>
     <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Sonido de notificación si está activo</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproducir sonido y vibración para notificaciones cuando la pantalla esté encendida</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Barra de brillo deslizable</string>
+    <string name="qs_show_brightness_slider_summary">Mostrar una barra de brillo deslizable en el panel de ajustes rápidos</string>
+    <string name="qs_show_auto_brightness_title">Icono de brillo automático</string>
+    <string name="qs_show_auto_brightness_summary">Mostrar un interruptor para el brillo adaptativo cerca de la barra deslizable</string>
+    <string name="qs_show_brightness_slider_show_never">No mostrar nunca</string>
+    <string name="qs_show_brightness_slider_show_expanded">Mostrar al expandir</string>
+    <string name="qs_show_brightness_slider_show_always">Mostrar siempre</string>
+    <!-- Lock screen cover art -->
+    <!-- 4G LTE switch -->
+    <!-- VoLTE switch -->
+    <!-- VoWiFi icon -->
+    <!-- Lockscreen battery info indicator  -->
+    <!-- Battery Styles -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <!-- ambient music ticker -->
+    <!-- AOD Schedule -->
+    <!-- Notification Media Options -->
+    <!-- AOD Icons in Lockscreen! -->
+    <!-- FOD on doze -->
 </resources>

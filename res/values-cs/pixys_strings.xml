@@ -45,6 +45,9 @@
     <string name="pixys_devices_category_header">Oficiální zařízení</string>
     <!-- Status Bar -->
     <string name="status_bar_title">Stavový řádek</string>
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Dvojitým poklepáním na zamykací obrazovku uspat zařízení</string>
+    <string name="double_tap_sleep_lockscreen_summary">Dvojím poklepáním kdekoliv na zamykací obrazovku uvést zařízení do režimu spánku</string>
     <!--SystemUI Tuner -->
     <string name="statusbar_tuner_title">Položky stavového řádku</string>
     <string name="statusbar_tuner_summary">Vyberte, které ikony stavového řádku chcete zakázat</string>
@@ -85,4 +88,59 @@
     <string name="qs_show_brightness_slider_show_never">Nikdy nezobrazovat</string>
     <string name="qs_show_brightness_slider_show_expanded">Zobrazit po rozbalení</string>
     <string name="qs_show_brightness_slider_show_always">Zobrazit vždy</string>
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Zobrazit obal médií</string>
+    <string name="lockscreen_media_art_summary">Zobrazit aktuální obrázek alba přehrávaného média na uzamčené obrazovce</string>
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">Zobrazit 4G namísto LTE</string>
+    <string name="show_fourg_summary">Nahradí indikátor LTE ve stavovém řádku ukazatelem 4G</string>
+    <!-- VoLTE switch -->
+    <string name="volte_switch_title">Ikona VoLTE</string>
+    <string name="volte_switch_summary">Zobrazit ikonu VoLTE</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Ikona VoWiFi</string>
+    <string name="vowifi_icon_enabled">Ikona VoWiFi zapnuta</string>
+    <string name="vowifi_icon_disabled">Ikona VoWiFi vypnuta</string>
+    <string name="vowifi_icon_enabled_volte_disabled">Ikona VoWiFi namísto VoLTE</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
+    <string name="lockscreen_battery_info_summary">Zobrazit maximální proud, napětí a teplotu baterie při nabíjení na zamykací obrazovce</string>
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Styly baterie</string>
+    <string name="battery_percent_title">Procenta baterie</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Styl baterie</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikona na výšku (výchozí)</string>
+    <string name="status_bar_battery_style_circle">Kruh</string>
+    <string name="status_bar_battery_style_dotted_circle">Kruh (přerušovaný)</string>
+    <string name="status_bar_battery_style_filled_circle">Kruh (vyplněný)</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Nezobrazovat</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Procenta baterie</string>
+    <string name="status_bar_battery_percentage_default">Skryté (výchozí)</string>
+    <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
+    <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <string name="quick_settings_media_player">Obnovení médií</string>
+    <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <string name="quick_settings_media_player_summary">Zobrazí a ponechá přehrávač médií v Rychlém nastavení. Vyžaduje restart.</string>
+    <!-- ambient music ticker -->
+    <string name="ambient_music_location">Hudební oznámení na Ambientním displeji</string>
+    <string name="ambient_music_disabled">Vypnuto</string>
+    <string name="ambient_music_bottom">V dolní části (výchozí)</string>
+    <string name="ambient_music_center">Uprostřed (pod cLock)</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Plán zobrazení Always On</string>
+    <string name="always_on_display_schedule_summary">Plán režimu Always On se západem/východem slunce nebo vlastním časem</string>
+    <string name="always_on_display_schedule_sunset">Západ slunce</string>
+    <string name="always_on_display_schedule_sunrise">Východ slunce</string>
+    <string name="disabled">Vypnuto</string>
+    <string name="always_on_display_schedule_mixed_sunset">Zapnuto od západu slunce do daného času</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Zapnuto od nastaveného času k východu slunce</string>
+    <!-- Notification Media Options -->
+    <string name="media_category">Možnosti oznámení médií</string>
+    <!-- AOD Icons in Lockscreen! -->
+    <string name="ambient_icons_size_title">Velikost ikony AOD</string>
+    <!-- FOD on doze -->
 </resources>
