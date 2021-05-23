@@ -14,27 +14,142 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">浏览</string>
+    <string name="pixys_settings_dashboard_summary">探索Goodies</string>
+    <string name="pixys_statusbar_dashboard_title">状态栏​​​​​​​</string>
+    <string name="pixys_statusbar_dashboard_summary">自定义状态栏图标</string>
+    <string name="pixys_qs_dashboard_title">快速设置</string>
+    <string name="pixys_qs_dashboard_summary">自定义您的快速设置</string>
+    <string name="pixys_notifications_dashboard_title">通知</string>
+    <string name="pixys_notifications_dashboard_summary">自定义您的通知设置</string>
+    <string name="pixys_buttons_dashboard_title">按钮</string>
+    <string name="pixys_buttons_dashboard_summary">自定义实体按键</string>
+    <string name="pixys_lockscreen_dashboard_title">锁屏界面</string>
+    <string name="pixys_lockscreen_dashboard_summary">自定义您的锁屏界面</string>
+    <string name="pixys_gestures_dashboard_title">手势</string>
+    <string name="pixys_gestures_dashboard_summary">使用手势自定义设备</string>
+    <string name="pixys_misc_dashboard_title">杂项设置</string>
+    <string name="pixys_misc_dashboard_summary">自定义杂项设置</string>
+    <string name="pixys_about_dashboard_title">关于 PixysOS</string>
+    <string name="pixys_about_dashboard_summary">项目及团队简介</string>
+    <string name="pixys_about_info">PixysOS 是一个基于AOSP提供原生的UI / UX最小自定义的ROM。 我们是通过从其他项目中挑选各种优秀建议而完成的。 由于基于AOSP，它提供流畅、无卡顿的体验。 我们将在未来的更新中，不断尝试添加更多功能，使其变得更加完善。</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">查看我们的源代码</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">访问我们的Facebook主页</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">加入我们的 Telegram 讨论组</string>
+    <string name="pixys_about_contact_website_header">下载中心</string>
+    <string name="pixys_about_contact_website_description">访问我们的网站来获取下载及更多</string>
+    <string name="pixys_core_category_header">核心团队</string>
+    <string name="pixys_devices_category_header">官方支持机型</string>
     <!-- Status Bar -->
+    <string name="status_bar_title">状态栏​​​​​​​</string>
     <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">在锁屏界面双击屏幕休眠</string>
+    <string name="double_tap_sleep_lockscreen_summary">在锁屏界面双击任意处使设备休眠</string>
     <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">状态栏项目</string>
+    <string name="statusbar_tuner_summary">选择要禁用的状态栏图标</string>
     <!-- Statusbar net monitor -->
+    <string name="traffic_title">网速指示器</string>
+    <string name="network_traffic_state_title">网络流量</string>
+    <string name="network_traffic">网络流量</string>
+    <string name="network_traffic_location">网速指示器的位置</string>
+    <string name="traffic_disabled">禁用</string>
+    <string name="traffic_statusbar">状态栏</string>
+    <string name="traffic_expanded_statusbar">扩展标题</string>
+    <string name="network_traffic_autohide_threshold_title">网络活动自动隐藏阈值 (KB/s)</string>
+    <string name="network_traffic_arrow">显示箭头</string>
+    <string name="network_traffic_arrow_summary">显示网络流量指示箭头</string>
+    <string name="network_traffic_type">选择网络活动显示类型</string>
+    <string name="show_network_traffic_combined">合并(上传 + 下载)</string>
+    <string name="show_network_traffic_dynamic">动态</string>
+    <string name="show_network_traffic_up">上传</string>
+    <string name="show_network_traffic_down">下载</string>
+    <string name="show_network_traffic_all">上传和下载</string>
+    <string name="network_traffic_layout">活动布局</string>
+    <string name="network_traffic_layout_h">横向</string>
+    <string name="network_traffic_layout_v">垂直</string>
+    <string name="nettraf_font_size">字体大小</string>
     <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">减少通知</string>
+    <string name="less_boring_heads_up_summary">快速禁用所有应用的浮动通知，但保持开启拨号程序和短信应用</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">反转布局</string>
     <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">屏幕开启时的通知声</string>
+    <string name="notification_sound_vib_screen_on_summary">当屏幕开启时播放声音和振动通知</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">亮度条</string>
+    <string name="qs_show_brightness_slider_summary">在快速设置面板中显示亮度滑块</string>
+    <string name="qs_show_auto_brightness_title">自动亮度图标</string>
+    <string name="qs_show_auto_brightness_summary">在滑块附近显示自适应亮度</string>
+    <string name="qs_show_brightness_slider_show_never">从不显示</string>
+    <string name="qs_show_brightness_slider_show_expanded">展开时显示</string>
+    <string name="qs_show_brightness_slider_show_always">始终显示</string>
     <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">显示媒体艺术封面</string>
+    <string name="lockscreen_media_art_summary">在锁屏界面显示当前播放的媒体专辑封面</string>
     <!-- 4G LTE switch -->
+    <string name="show_fourg_title">显示 4G 而不是 LTE</string>
+    <string name="show_fourg_summary">将状态栏上LTE替换成4G</string>
     <!-- VoLTE switch -->
+    <string name="volte_switch_title">VoLTE 图标</string>
+    <string name="volte_switch_summary">显示 VoLTE 图标</string>
     <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi 图标</string>
+    <string name="vowifi_icon_enabled">VoWiFi图标已启用</string>
+    <string name="vowifi_icon_disabled">VoWiFi图标已禁用</string>
+    <string name="vowifi_icon_enabled_volte_disabled">当 VoWiFi 可用时隐藏 VoLTE</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">锁屏界面充电信息</string>
+    <string name="lockscreen_battery_info_summary">充电时在锁屏界面显示电源适配器的最大电流、电压以及电池温度</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">电池样式</string>
+    <string name="battery_percent_title">电量百分比</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">电池样式</string>
+    <string name="status_bar_battery_style_icon_portrait">竖置图标 (默认)</string>
+    <string name="status_bar_battery_style_circle">圆圈</string>
+    <string name="status_bar_battery_style_dotted_circle">圆圈 (虚线)</string>
+    <string name="status_bar_battery_style_filled_circle">实心圆圈</string>
+    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">电量百分比</string>
+    <string name="status_bar_battery_percentage_default">隐藏 (默认)</string>
+    <string name="status_bar_battery_percentage_text_inside">在图标内</string>
+    <string name="status_bar_battery_percentage_text_next">在图标旁</string>
     <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <string name="quick_settings_media_player">媒体恢复</string>
     <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <string name="quick_settings_media_player_summary">在“快速设置”中显示并保持媒体播放器。需要重启。</string>
     <!-- ambient music ticker -->
+    <string name="ambient_music_location">显示环境音乐信息</string>
+    <string name="ambient_music_disabled">禁用</string>
+    <string name="ambient_music_bottom">在底部 (默认)</string>
+    <string name="ambient_music_center">居中 (在锁定下)</string>
     <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">总是显示时间表</string>
+    <string name="always_on_display_schedule_summary">设置显示 日落/日出 或自定义时间</string>
+    <string name="always_on_display_schedule_sunset">日落</string>
+    <string name="always_on_display_schedule_sunrise">日出</string>
+    <string name="disabled">禁用</string>
+    <string name="always_on_display_schedule_mixed_sunset">从日落开启直到一段时间</string>
+    <string name="always_on_display_schedule_mixed_sunrise">从某一时间开启直到日出</string>
     <!-- Notification Media Options -->
+    <string name="media_category">媒体通知选项</string>
+    <string name="artwork_media_background_title">美工媒体背景</string>
+    <string name="artwork_media_background_summary">设置媒体图稿为通知媒体背景</string>
     <!-- AOD Icons in Lockscreen! -->
+    <string name="lock_aod_icons_title">AOD/环境显示自定义</string>
+    <string name="ambient_icons_lockscreen_title">锁屏界面上的AOD 图标</string>
+    <string name="ambient_icons_lockscreen_summary">用AOD图标替换通知</string>
+    <string name="ambient_icons_size_title">AOD 图标大小</string>
     <!-- FOD on doze -->
+    <string name="fod_on_doze_title">休眠时FOD</string>
+    <string name="fod_on_doze_summary">在环境显示和AOD上显示指纹。这只会隐藏图标，不会禁用功能</string>
+    <!--  Volume Panel Plugin   -->
+    <!--  Volume Panel Plugin Values   -->
 </resources>

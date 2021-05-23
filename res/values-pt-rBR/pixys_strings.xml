@@ -150,4 +150,6 @@
     <!-- FOD on doze -->
     <string name="fod_on_doze_title">Impressão Digital na tela ambiente</string>
     <string name="fod_on_doze_summary">Mostrar impressão digital na tela ambiente. Isso apenas oculta o ícone e não desativará a funcionalidade</string>
+    <!--  Volume Panel Plugin   -->
+    <!--  Volume Panel Plugin Values   -->
 </resources>

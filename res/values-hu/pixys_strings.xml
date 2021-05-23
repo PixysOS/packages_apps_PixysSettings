@@ -150,4 +150,6 @@
     <!-- FOD on doze -->
     <string name="fod_on_doze_title">FOD Szundi</string>
     <string name="fod_on_doze_summary">Az ujjlenyomat megjelenítése a kijelzőn a környezeti kijelzőn és az AOD-n. Ez csak az ikont rejti, és nem tiltja le a funkcionalitást</string>
+    <!--  Volume Panel Plugin   -->
+    <!--  Volume Panel Plugin Values   -->
 </resources>

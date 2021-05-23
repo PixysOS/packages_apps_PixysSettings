@@ -14,21 +14,46 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pixys_settings_title">Odkrywaj</string>
+    <string name="pixys_qs_dashboard_title">Szybkie ustawienia</string>
+    <string name="pixys_qs_dashboard_summary">Dostosuj szybkie ustawienia</string>
+    <string name="pixys_notifications_dashboard_title">Powiadomienia</string>
+    <string name="pixys_buttons_dashboard_title">Przyciski</string>
+    <string name="pixys_lockscreen_dashboard_title">Ekran blokady</string>
+    <string name="pixys_gestures_dashboard_title">Gesty</string>
+    <string name="pixys_misc_dashboard_title">Inne</string>
+    <string name="pixys_about_dashboard_title">O PixysOS</string>
     <!-- Status Bar -->
     <!-- Double Tap gestures -->
     <!--SystemUI Tuner -->
     <!-- Statusbar net monitor -->
+    <string name="network_traffic">Ruch sieciowy</string>
+    <string name="traffic_disabled">Wyłączone</string>
     <!-- Less boring heads up -->
     <!-- Navbar options -->
     <!-- Supress notifications if screen is on -->
     <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Suwak jasności</string>
+    <string name="qs_show_auto_brightness_title">Ikona automatycznej jasności</string>
+    <string name="qs_show_brightness_slider_show_never">Nigdy nie pokazuj</string>
+    <string name="qs_show_brightness_slider_show_always">Zawsze pokazuj</string>
     <!-- Lock screen cover art -->
     <!-- 4G LTE switch -->
     <!-- VoLTE switch -->
+    <string name="volte_switch_title">Ikona VoLTE</string>
     <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Ikona VoWiFi</string>
     <!-- Lockscreen battery info indicator  -->
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Styl wskaźnika baterii</string>
+    <string name="battery_percent_title">Procentowy stan baterii</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Styl wskaźnika baterii</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikona pionowa (domyślne)</string>
+    <string name="status_bar_battery_style_circle">Okrąg</string>
+    <string name="status_bar_battery_style_dotted_circle">Okrąg (Przerywany)</string>
+    <string name="status_bar_battery_style_filled_circle">Okrąg (Wypełniony)</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
     <!-- Status bar - Battery percentage -->
     <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
     <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
@@ -37,4 +62,6 @@
     <!-- Notification Media Options -->
     <!-- AOD Icons in Lockscreen! -->
     <!-- FOD on doze -->
+    <!--  Volume Panel Plugin   -->
+    <!--  Volume Panel Plugin Values   -->
 </resources>

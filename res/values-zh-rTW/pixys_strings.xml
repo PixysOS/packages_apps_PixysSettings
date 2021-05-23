@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pixys_settings_title">探索</string>
+    <string name="pixys_settings_dashboard_summary">探索Goodies</string>
     <string name="pixys_statusbar_dashboard_title">狀態列</string>
     <string name="pixys_statusbar_dashboard_summary">自定義狀態列圖標</string>
     <string name="pixys_qs_dashboard_title">快速設定</string>
@@ -45,6 +46,8 @@
     <!-- Status Bar -->
     <string name="status_bar_title">狀態列</string>
     <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">輕觸兩下鎖定畫面以關閉螢幕</string>
+    <string name="double_tap_sleep_lockscreen_summary">雙撃鎖定螢幕上任何位置將螢幕關閉</string>
     <!--SystemUI Tuner -->
     <string name="statusbar_tuner_title">狀態列項目</string>
     <string name="statusbar_tuner_summary">選擇要禁用的狀態列圖標</string>
@@ -86,18 +89,67 @@
     <string name="qs_show_brightness_slider_show_expanded">當展開時顯示</string>
     <string name="qs_show_brightness_slider_show_always">始終顯示</string>
     <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">顯示媒體封面</string>
+    <string name="lockscreen_media_art_summary">在鎖屏上顯示當前播放媒體的專輯封面</string>
     <!-- 4G LTE switch -->
+    <string name="show_fourg_title">顯示 4G 而非 LTE 圖示</string>
+    <string name="show_fourg_summary">將狀態列的 LTE 圖示替換為 4G</string>
     <!-- VoLTE switch -->
+    <string name="volte_switch_title">VoLTE 圖示</string>
+    <string name="volte_switch_summary">顯示 VoLTE 圖示</string>
     <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi 圖示</string>
+    <string name="vowifi_icon_enabled">VoWiFi 圖示已啟用</string>
+    <string name="vowifi_icon_disabled">VoWiFi 圖示已停用</string>
+    <string name="vowifi_icon_enabled_volte_disabled">當 VoWiFi 可用時隱藏 VoLTE</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">鎖定畫面充電資訊</string>
+    <string name="lockscreen_battery_info_summary">充電時於鎖定畫面上顯示充電器判斷的最大電流和電壓及電池溫度</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">電池樣式</string>
+    <string name="battery_percent_title">電量百分比</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">電池樣式</string>
+    <string name="status_bar_battery_style_icon_portrait">直立圖標 (預設)</string>
+    <string name="status_bar_battery_style_circle">圓形</string>
+    <string name="status_bar_battery_style_dotted_circle">虛線圓圈</string>
+    <string name="status_bar_battery_style_filled_circle">實體圓圈</string>
+    <string name="status_bar_battery_style_text">文字</string>
+    <string name="status_bar_battery_style_hidden">隱藏</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">電量百分比</string>
+    <string name="status_bar_battery_percentage_default">隱藏 (預設)</string>
+    <string name="status_bar_battery_percentage_text_inside">圖示內</string>
+    <string name="status_bar_battery_percentage_text_next">圖示旁</string>
     <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <string name="quick_settings_media_player">媒體恢復</string>
     <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <string name="quick_settings_media_player_summary">在“快速設置”中顯示並保持媒體播放器。這需要重新啟動。</string>
     <!-- ambient music ticker -->
+    <string name="ambient_music_location">微光螢幕音樂顯示</string>
+    <string name="ambient_music_disabled">已停用</string>
+    <string name="ambient_music_bottom">在底部 (預設)</string>
+    <string name="ambient_music_center">置中 (時鐘下方)</string>
     <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">一律顯示已開啟</string>
+    <string name="always_on_display_schedule_summary">設定顯示 日落/日出 或自定義時間</string>
+    <string name="always_on_display_schedule_sunset">日落</string>
+    <string name="always_on_display_schedule_sunrise">日出</string>
+    <string name="disabled">已停用</string>
+    <string name="always_on_display_schedule_mixed_sunset">從日落開啟直到一段時間</string>
+    <string name="always_on_display_schedule_mixed_sunrise">從某一時間開啟直到日出</string>
     <!-- Notification Media Options -->
+    <string name="media_category">通知選項</string>
+    <string name="artwork_media_background_title">美工媒體背景</string>
+    <string name="artwork_media_background_summary">設定媒體圖畫為通知媒體背景</string>
     <!-- AOD Icons in Lockscreen! -->
+    <string name="lock_aod_icons_title">AOD/環境顯示自定義</string>
+    <string name="ambient_icons_lockscreen_title">螢幕鎖定畫面上的AOD 圖標</string>
+    <string name="ambient_icons_lockscreen_summary">用AOD圖示替換通知</string>
+    <string name="ambient_icons_size_title">AOD 圖示大小</string>
     <!-- FOD on doze -->
+    <string name="fod_on_doze_title">休眠時FOD</string>
+    <string name="fod_on_doze_summary">在環境顯示和AOD上顯示指紋。這只會隱藏圖標，不會禁用功能</string>
+    <!--  Volume Panel Plugin   -->
+    <!--  Volume Panel Plugin Values   -->
 </resources>

@@ -150,4 +150,6 @@
     <!-- FOD on doze -->
     <string name="fod_on_doze_title">Uykuda FOD</string>
     <string name="fod_on_doze_summary">Ortam ekranı ve AOD\'de ekranda parmak izini gösterin. Bu yalnızca simgeyi gizler ve işlevselliği devre dışı bırakmaz</string>
+    <!--  Volume Panel Plugin   -->
+    <!--  Volume Panel Plugin Values   -->
 </resources>

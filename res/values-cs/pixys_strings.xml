@@ -140,7 +140,16 @@
     <string name="always_on_display_schedule_mixed_sunrise">Zapnuto od nastaveného času k východu slunce</string>
     <!-- Notification Media Options -->
     <string name="media_category">Možnosti oznámení médií</string>
+    <string name="artwork_media_background_title">Pozadí obalu interpreta</string>
+    <string name="artwork_media_background_summary">Nastavit obal interpreta jako pozadí oznámení médií</string>
     <!-- AOD Icons in Lockscreen! -->
+    <string name="lock_aod_icons_title">AOD/přizpůsobení ambientního displeje</string>
+    <string name="ambient_icons_lockscreen_title">AOD/ikony na zamykací obrazovce</string>
+    <string name="ambient_icons_lockscreen_summary">Nahradit oznámení ikonami na AOD</string>
     <string name="ambient_icons_size_title">Velikost ikony AOD</string>
     <!-- FOD on doze -->
+    <string name="fod_on_doze_title">FOD při nečinnosti</string>
+    <string name="fod_on_doze_summary">Zobrazit FOD na ambientním displeji a AOD. Tím se skryje pouze ikona a funkce nebude deaktivována</string>
+    <!--  Volume Panel Plugin   -->
+    <!--  Volume Panel Plugin Values   -->
 </resources>

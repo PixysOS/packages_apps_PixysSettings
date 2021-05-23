@@ -46,6 +46,8 @@
     <!-- Status Bar -->
     <string name="status_bar_title">ステータスバー</string>
     <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">ロック画面のダブルタップでスリープ</string>
+    <string name="double_tap_sleep_lockscreen_summary">ロック画面の任意の場所をダブルタップして端末をスリープさせる</string>
     <!--SystemUI Tuner -->
     <string name="statusbar_tuner_title">ステータスバーのアイコン</string>
     <string name="statusbar_tuner_summary">無効にするステータスバーのアイコンを選択する</string>
@@ -129,7 +131,25 @@
     <string name="ambient_music_bottom">下部に表示 (既定)</string>
     <string name="ambient_music_center">中央に表示 (cLockの下)</string>
     <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Always On Display のスケジュール</string>
+    <string name="always_on_display_schedule_summary">日の出/日没やカスタム設定で Always On Display をスケジューリングする</string>
+    <string name="always_on_display_schedule_sunset">日没</string>
+    <string name="always_on_display_schedule_sunrise">日の出</string>
+    <string name="disabled">無効</string>
+    <string name="always_on_display_schedule_mixed_sunset">日没から設定時刻まで</string>
+    <string name="always_on_display_schedule_mixed_sunrise">設定時刻から日の出まで</string>
     <!-- Notification Media Options -->
+    <string name="media_category">メディア通知オプション</string>
+    <string name="artwork_media_background_title">メディアアートワークの背景</string>
+    <string name="artwork_media_background_summary">メディアアートワークをメディア通知の背景に設定する</string>
     <!-- AOD Icons in Lockscreen! -->
+    <string name="lock_aod_icons_title">AOD/アンビエント表示の編集</string>
+    <string name="ambient_icons_lockscreen_title">ロック画面の AOD</string>
+    <string name="ambient_icons_lockscreen_summary">通知を AOD アイコンで置き換える</string>
+    <string name="ambient_icons_size_title">AOD アイコンのサイズ</string>
     <!-- FOD on doze -->
+    <string name="fod_on_doze_title">Doze 時の画面内指紋認証</string>
+    <string name="fod_on_doze_summary">アンビエント画面時又は AOD 時に指紋を画面に表示します。これはアイコンを隠すのみの設定で、指紋認証の機能は無効化されません。</string>
+    <!--  Volume Panel Plugin   -->
+    <!--  Volume Panel Plugin Values   -->
 </resources>

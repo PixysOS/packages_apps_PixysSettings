@@ -150,4 +150,6 @@
     <!-- FOD on doze -->
     <string name="fod_on_doze_title">FOD saat tidur</string>
     <string name="fod_on_doze_summary">Tunjukkan sidik jari dalam layar pada tampilan ambien dan AOD. Ini hanya menyembunyikan ikon dan tidak akan menonaktifkan fungsionalitas</string>
+    <!--  Volume Panel Plugin   -->
+    <!--  Volume Panel Plugin Values   -->
 </resources>
