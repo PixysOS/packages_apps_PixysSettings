@@ -15,11 +15,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pixys_settings_title">Explorar</string>
-    <string name="pixys_settings_dashboard_summary">Explore esse Bagualismo Tchê</string>
+    <string name="pixys_settings_dashboard_summary">Explore os Goodies</string>
     <string name="pixys_statusbar_dashboard_title">Barra de status</string>
     <string name="pixys_statusbar_dashboard_summary">Personalize seus Ícones da Barra de Status</string>
     <string name="pixys_qs_dashboard_title">Configurações Rápidas</string>
-    <string name="pixys_qs_dashboard_summary">Personalize suas Configurações Rápidas</string>
+    <string name="pixys_qs_dashboard_summary">Personalizar suas configurações rápidas</string>
     <string name="pixys_notifications_dashboard_title">Notificações</string>
     <string name="pixys_notifications_dashboard_summary">Personalizar as Configurações de Notificação</string>
     <string name="pixys_buttons_dashboard_title">Botões</string>
@@ -151,5 +151,15 @@
     <string name="fod_on_doze_title">Impressão Digital na tela ambiente</string>
     <string name="fod_on_doze_summary">Mostrar impressão digital na tela ambiente. Isso apenas oculta o ícone e não desativará a funcionalidade</string>
     <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">Estilo do painel de volume</string>
+    <string name="volume_panel_stock">Padrão</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Compacto</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Ladrilhado</string>
     <!--  Volume Panel Plugin Values   -->
+    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
 </resources>

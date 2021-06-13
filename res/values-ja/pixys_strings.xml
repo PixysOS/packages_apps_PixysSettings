@@ -151,5 +151,15 @@
     <string name="fod_on_doze_title">Doze 時の画面内指紋認証</string>
     <string name="fod_on_doze_summary">アンビエント画面時又は AOD 時に指紋を画面に表示します。これはアイコンを隠すのみの設定で、指紋認証の機能は無効化されません。</string>
     <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">音量パネルのスタイル</string>
+    <string name="volume_panel_stock">既定</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">コンパクト</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">タイル</string>
     <!--  Volume Panel Plugin Values   -->
+    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
 </resources>

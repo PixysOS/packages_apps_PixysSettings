@@ -151,5 +151,12 @@
     <string name="fod_on_doze_title">FOD Szundi</string>
     <string name="fod_on_doze_summary">Az ujjlenyomat megjelenítése a kijelzőn a környezeti kijelzőn és az AOD-n. Ez csak az ikont rejti, és nem tiltja le a funkcionalitást</string>
     <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">Hangerő panel stílusa</string>
+    <string name="volume_panel_stock">Alapértelmezett</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Kompakt</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Mozaik</string>
     <!--  Volume Panel Plugin Values   -->
+    <string name="volume_panel_aosp_val">hangerő_panel_aosp_val</string>
 </resources>

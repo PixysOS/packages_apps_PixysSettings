@@ -151,5 +151,15 @@
     <string name="fod_on_doze_title">FOD saat tidur</string>
     <string name="fod_on_doze_summary">Tunjukkan sidik jari dalam layar pada tampilan ambien dan AOD. Ini hanya menyembunyikan ikon dan tidak akan menonaktifkan fungsionalitas</string>
     <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">Gaya Panel Volume</string>
+    <string name="volume_panel_stock">Bawaan</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Sederhana</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Dasar</string>
     <!--  Volume Panel Plugin Values   -->
+    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
 </resources>

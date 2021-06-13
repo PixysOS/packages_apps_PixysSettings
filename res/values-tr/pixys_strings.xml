@@ -151,5 +151,15 @@
     <string name="fod_on_doze_title">Uykuda FOD</string>
     <string name="fod_on_doze_summary">Ortam ekranı ve AOD\'de ekranda parmak izini gösterin. Bu yalnızca simgeyi gizler ve işlevselliği devre dışı bırakmaz</string>
     <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">Ses paneli stili</string>
+    <string name="volume_panel_stock">Varsayılan</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Kompakt</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Kutucuklu</string>
     <!--  Volume Panel Plugin Values   -->
+    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
 </resources>
