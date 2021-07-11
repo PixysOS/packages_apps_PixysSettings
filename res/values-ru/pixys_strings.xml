@@ -29,10 +29,28 @@
     <string name="pixys_gestures_dashboard_title">Жесты</string>
     <string name="pixys_gestures_dashboard_summary">Настройте жесты</string>
     <string name="pixys_misc_dashboard_title">Прочее</string>
+    <string name="pixys_misc_dashboard_summary">Кастомизация с некоторыми прочими настройками</string>
     <string name="pixys_about_dashboard_title">О PixysOS</string>
+    <string name="pixys_about_dashboard_summary">Наша команда и цель</string>
+    <string name="pixys_about_info">PixysOS - это прошивка на основе AOSP, которая предоставляет стандартный интерфейс с минимальной кастомизацией. Проект был создан путём сбора различных коммитов из других проектов. Будучи основанной на AOSP, она обеспечивает плавный и свободный от задержек опыт из коробки. Мы будем постоянно стараться добавлять новые функции и делать её ещё лучше в будущих обновлениях.</string>
+    <string name="pixys_about_contact_github_header">GitHub</string>
+    <string name="pixys_about_contact_github_description">Посмотрите наш исходный код</string>
+    <string name="pixys_about_contact_facebook_header">Facebook</string>
+    <string name="pixys_about_contact_facebook_description">Посетите нашу страницу Facebook</string>
+    <string name="pixys_about_contact_telegram_header">Telegram</string>
+    <string name="pixys_about_contact_telegram_description">Присоединяйтесь к обсуждению в нашей группе в Telegram</string>
+    <string name="pixys_about_contact_website_header">Центр загрузок</string>
+    <string name="pixys_about_contact_website_description">Посетите наш сайт для скачивания и больше</string>
+    <string name="pixys_core_category_header">Основная команда</string>
+    <string name="pixys_devices_category_header">Оффициально поддерживаемые устройства</string>
     <!-- Status Bar -->
+    <string name="status_bar_title">Строка состояния</string>
     <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Дважды коснитесь экрана блокировки, чтобы перевести устройство в спящий режим</string>
+    <string name="double_tap_sleep_lockscreen_summary">Дважды коснитесь любого места на экране блокировки, чтобы перевести устройство в спящий режим</string>
     <!--SystemUI Tuner -->
+    <string name="statusbar_tuner_title">Элементы строки состояния</string>
+    <string name="statusbar_tuner_summary">Выберите иконки в строке состояния для отключения</string>
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Индикаторы трафика</string>
     <string name="network_traffic_state_title">Сетевой трафик</string>
@@ -40,31 +58,98 @@
     <string name="network_traffic_location">Расположение индикатора трафика</string>
     <string name="traffic_disabled">Отключено</string>
     <string name="traffic_statusbar">Строка состояния</string>
+    <string name="traffic_expanded_statusbar">Расширенный заголовок</string>
     <string name="network_traffic_autohide_threshold_title">Порог отображения сетевой активности (КБ/с)</string>
     <string name="network_traffic_arrow">Показывать стрелки</string>
     <string name="network_traffic_arrow_summary">Скрывать стрелки индикатора сетевого трафика</string>
     <string name="network_traffic_type">Выберите тип сетевой активности</string>
     <string name="show_network_traffic_combined">Комбинированный (Выгрузка + Загрузка)</string>
     <string name="show_network_traffic_dynamic">Динамический</string>
+    <string name="show_network_traffic_up">Загрузить</string>
+    <string name="show_network_traffic_down">Скачать</string>
+    <string name="show_network_traffic_all">Оба</string>
+    <string name="network_traffic_layout">Макет активности</string>
+    <string name="network_traffic_layout_h">Горизонтально</string>
+    <string name="network_traffic_layout_v">Вертикально</string>
+    <string name="nettraf_font_size">Размер шрифта одиночной сети</string>
     <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Меньше надоедливых всплывающих уведомлений</string>
+    <string name="less_boring_heads_up_summary">Быстро отключить всплывающие уведомления для всех приложений, но оставить их включенными для приложений набора номера и обмена сообщениями</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертировать порядок кнопок</string>
     <!-- Supress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Звук уведомления, если активен</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при включении экрана</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Регулятор яркости</string>
+    <string name="qs_show_brightness_slider_summary">Показывать регулятор яркости в панели быстрых настроек</string>
+    <string name="qs_show_auto_brightness_title">Иконка автояркости</string>
+    <string name="qs_show_auto_brightness_summary">Показывать переключатель для адаптивной регулировки яркости</string>
+    <string name="qs_show_brightness_slider_show_never">Не показывать</string>
+    <string name="qs_show_brightness_slider_show_expanded">Показывать в развёрнутом виде</string>
+    <string name="qs_show_brightness_slider_show_always">Всегда показывать</string>
     <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Отображать музыкальные обложки</string>
+    <string name="lockscreen_media_art_summary">Показывать текущую обложку альбома на экране блокировки</string>
     <!-- 4G LTE switch -->
+    <string name="show_fourg_title">Показывать 4G вместо LTE</string>
+    <string name="show_fourg_summary">Заменяет индикатор LTE на 4G в строке состояния</string>
     <!-- VoLTE switch -->
+    <string name="volte_switch_title">Иконка VoLTE</string>
+    <string name="volte_switch_summary">Отображать иконку VoLTE</string>
     <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Иконка VoWiFi</string>
+    <string name="vowifi_icon_enabled">Иконка VoWiFi включена</string>
+    <string name="vowifi_icon_disabled">Иконка VoWiFi отключена</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi вместо иконки VoLTE</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Отображение тока и напряжения зарядного устройства и температуры батареи на экране блокировки во время зарядки</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Стили батареи</string>
+    <string name="battery_percent_title">Процент заряда батареи</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальная иконка (по умолчанию)</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Круг (Пунктирный)</string>
+    <string name="status_bar_battery_style_filled_circle">Круг (Заполненный)</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрытая</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Не показывать (по умолчанию)</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
     <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <string name="quick_settings_media_player">Восстановление медиа</string>
     <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <string name="quick_settings_media_player_summary">Показывает и настраивает медиапроигрыватель в быстрых настройках. Требуется перезагрузка.</string>
     <!-- ambient music ticker -->
+    <string name="ambient_music_location">Показывать «Сейчас играет»</string>
+    <string name="ambient_music_disabled">Отключено</string>
+    <string name="ambient_music_bottom">Внизу (по умолчанию)</string>
+    <string name="ambient_music_center">По центру (под cLock)</string>
     <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Расписание всегда включённого экрана</string>
+    <string name="always_on_display_schedule_summary">Расписание всегда на экране с закатом/восходом солнца или настраиваемым временем</string>
+    <string name="always_on_display_schedule_sunset">Закат</string>
+    <string name="always_on_display_schedule_sunrise">Восход</string>
+    <string name="disabled">Отключено</string>
+    <string name="always_on_display_schedule_mixed_sunset">Включается с заката до определенного времени</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Включается от заданного времени до восхода</string>
     <!-- Notification Media Options -->
+    <string name="media_category">Параметры медиа уведомлений</string>
+    <string name="artwork_media_background_title">Фон медиа-обложки</string>
+    <string name="artwork_media_background_summary">Установить медиа-обложку в качестве фона уведомления</string>
     <!-- AOD Icons in Lockscreen! -->
     <!-- FOD on doze -->
     <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">Стиль панели громкости</string>
+    <string name="volume_panel_stock">По умолчанию</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Компактный</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Плиточный</string>
     <!--  Volume Panel Plugin Values   -->
 </resources>

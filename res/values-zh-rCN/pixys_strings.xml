@@ -151,5 +151,15 @@
     <string name="fod_on_doze_title">休眠时FOD</string>
     <string name="fod_on_doze_summary">在环境显示和AOD上显示指纹。这只会隐藏图标，不会禁用功能</string>
     <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">音量面板样式</string>
+    <string name="volume_panel_stock">默认​​​​​</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">简洁</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">平铺</string>
     <!--  Volume Panel Plugin Values   -->
+    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
 </resources>
