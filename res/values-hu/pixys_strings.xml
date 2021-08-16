@@ -159,4 +159,7 @@
     <string name="volume_panel_tiled">Mozaik</string>
     <!--  Volume Panel Plugin Values   -->
     <string name="volume_panel_aosp_val">hangerő_panel_aosp_val</string>
+    <string name="volume_panel_compact_val">co. burgonyaproject.panel.hangerő.kompakt</string>
+    <string name="volume_panel_oreo_val">co. burgonyaproject.panel.hangerő.oreo</string>
+    <string name="volume_panel_tiled_val">co. burgonyaproject.panel.hangerő.csempézett</string>
 </resources>

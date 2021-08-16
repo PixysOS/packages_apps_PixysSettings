@@ -46,6 +46,8 @@
     <!-- Status Bar -->
     <string name="status_bar_title">Thanh trạng thái</string>
     <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Nhấn hay lần để ngủ khi khoá màn hình</string>
+    <string name="double_tap_sleep_lockscreen_summary">Nhấn hai lần bất cứ đâu trên màn hình khoá để máy đi ngủ</string>
     <!--SystemUI Tuner -->
     <string name="statusbar_tuner_title">Biểu tượng thanh trạng thái</string>
     <string name="statusbar_tuner_summary">Chọn các biểu tượng thanh trạng thái để tắt</string>
@@ -87,20 +89,80 @@
     <string name="qs_show_brightness_slider_show_expanded">Hiển thị khi mở rộng</string>
     <string name="qs_show_brightness_slider_show_always">Luôn hiển thị</string>
     <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Hiện ảnh bìa bài hát</string>
+    <string name="lockscreen_media_art_summary">Hiện ảnh bìa bài hát đang hát ở màn hình khoá</string>
     <!-- 4G LTE switch -->
+    <string name="show_fourg_title">Hiện 4G thay vì LTE</string>
+    <string name="show_fourg_summary">Thay thế biểu tượng LTE với 4G</string>
     <!-- VoLTE switch -->
+    <string name="volte_switch_title">Biểu tượng VoLTE</string>
+    <string name="volte_switch_summary">Hiển thị biểu tượng VoLTE</string>
     <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Biểu tượng VoWiFi</string>
+    <string name="vowifi_icon_enabled">Biểu tượng VoWiFi đã bật</string>
+    <string name="vowifi_icon_disabled">Biểu tượng VoWiFi đã tắt</string>
+    <string name="vowifi_icon_enabled_volte_disabled">Biểu tượng VoWiFi thay vì VoLTE</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Thông tin sạc trên màn hình khoá</string>
+    <string name="lockscreen_battery_info_summary">Hiển thị mức điện thế và nhiệt độ pin ở màn hình khoá khi sạc</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Kiểu hiển thị pin</string>
+    <string name="battery_percent_title">Phần trăm pin</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Kiểu hiển thị pin</string>
+    <string name="status_bar_battery_style_icon_portrait">Đứng (mặt định)</string>
+    <string name="status_bar_battery_style_circle">Hình tròn</string>
+    <string name="status_bar_battery_style_dotted_circle">Hình tròn (theo chấm)</string>
+    <string name="status_bar_battery_style_filled_circle">Hình tròn (đầy)</string>
+    <string name="status_bar_battery_style_text">Chữ</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
+    <string name="status_bar_battery_percentage_default">Ẩn (mặc định)</string>
+    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng</string>
+    <string name="status_bar_battery_percentage_text_next">Kế bên biểu tượng</string>
     <!-- UI debug setting: show media player on quick settings title [CHAR LIMIT=60] -->
+    <string name="quick_settings_media_player">Bảng điều khiển phương tiện</string>
     <!-- UI debug setting: show media player on quick settings summary [CHAR_LIMIT=NONE] -->
+    <string name="quick_settings_media_player_summary">Hiển thị điều chỉnh phương tiện ở Cài đặt nhanh. Yêu cầu khởi động lại.</string>
     <!-- ambient music ticker -->
+    <string name="ambient_music_location">Thông tin nhạc trong màn hình khoá</string>
+    <string name="ambient_music_disabled">Đã tắt</string>
+    <string name="ambient_music_bottom">Dưới cùng (mặc định)</string>
+    <string name="ambient_music_center">Chính giữa (dưới đồng hồ)</string>
     <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Luôn hiển thị lịch biểu</string>
+    <string name="always_on_display_schedule_summary">Lên lịch mở AoD khi buổi chiều/sáng hay thời gian tự chọn</string>
+    <string name="always_on_display_schedule_sunset">Hoàn hôn</string>
+    <string name="always_on_display_schedule_sunrise">Bình minh</string>
+    <string name="disabled">Đã tắt</string>
+    <string name="always_on_display_schedule_mixed_sunset">Bật từ hoàn hôn tới một thời nhất định</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Bật từ một gian nhất định tới bình minh</string>
     <!-- Notification Media Options -->
+    <string name="media_category">Cài đặt thông báo phương tiện</string>
+    <string name="artwork_media_background_title">Hình nền ảnh bìa phương tiện</string>
+    <string name="artwork_media_background_summary">Chọn ảnh bìa phương tiện là hình nền thông báo phương tiện</string>
     <!-- AOD Icons in Lockscreen! -->
+    <string name="lock_aod_icons_title">Cài đặt AoD</string>
+    <string name="ambient_icons_lockscreen_title">Biểu tượng AoD trên màn hình khoá</string>
+    <string name="ambient_icons_lockscreen_summary">Thay thế thông báo với biểu tượng AoD</string>
+    <string name="ambient_icons_size_title">Kích cỡ biểu tượng AoD</string>
     <!-- FOD on doze -->
+    <string name="fod_on_doze_title">Hiển thị FOD khi tắt màn hình</string>
+    <string name="fod_on_doze_summary">Hiển thị biểu tượng vân tay khi sử dụng AoD. Cái này chỉ ẩn biểu tượng mà không làm nó mất tác dụng</string>
     <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">Mẫu bảng điều khiển âm lượng</string>
+    <string name="volume_panel_stock">Mặc định</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Gói gọn</string>
+    <string name="volume_panel_oreo">Android Oreo</string>
+    <string name="volume_panel_tiled">Theo ô</string>
+    <string name="volume_panel_miui">MiUI gói gọn</string>
+    <string name="volume_panel_p404">P404</string>
+    <string name="volume_panel_ssos">ShapeShift</string>
     <!--  Volume Panel Plugin Values   -->
+    <string name="volume_panel_aosp_val">AOSP</string>
+    <string name="volume_panel_compact_val">Gói gọn</string>
+    <string name="volume_panel_oreo_val">Android Oreo</string>
+    <string name="volume_panel_tiled_val">Theo ô</string>
 </resources>

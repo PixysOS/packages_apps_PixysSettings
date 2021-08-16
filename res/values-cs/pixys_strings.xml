@@ -157,6 +157,9 @@
     <string name="volume_panel_compact">Kompaktní</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Dlaždicový</string>
+    <string name="volume_panel_miui">MIUI kompaktní</string>
+    <string name="volume_panel_p404">P404</string>
+    <string name="volume_panel_ssos">ShapeShift</string>
     <!--  Volume Panel Plugin Values   -->
     <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
     <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
